@@ -4,7 +4,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import useSound from "use-sound";
-import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import { Interviews } from "../components/InterviewsHome";
 

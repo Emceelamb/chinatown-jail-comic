@@ -144,8 +144,7 @@ const PanelFive = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/3">
         <p className="font-winnieyoe text-2xl text-center">
-          Give you an example, in this once case, this guy was hit by his
-          neighbor, a bully.
+        I first read about the borough based jail plan in some periodicals. I contacted then council woman Margaret Chin and ran across a stone wall. That’s how I knew it was true. 
         </p>
       </div>
       <div className="w-1/4">
@@ -161,8 +160,7 @@ const PanelFive = () => {
       </div>
       <div className="w-1/3">
         <p className="font-winnieyoe text-2xl text-center">
-          When the police came, they arrested him instead of the bully. He
-          didn’t speak English and the neighbor said he hurt him.
+        You got to be proactive, not reactive. I wrote one article and got the Chinese press to do another article. Back then, people thought “Ah, it won’t happen.”
         </p>
       </div>
     </div>

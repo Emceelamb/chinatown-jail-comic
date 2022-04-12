@@ -121,7 +121,7 @@ const PanelFour = () => {
         <p className="font-winnieyoe text-2xl text-center">
           I first heard about the jail plan in a small private meeting with less
           than a dozen of community leaders and organizations. The city made a
-          presentation with the council member of the time, Margaret Chan.
+          presentation with the council member of the time, Margaret Chin.
         </p>
       </div>
       <div className="w-1/4">
@@ -380,9 +380,7 @@ const PanelThirteen = () => {
       <div className="w-full relative h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
-            From history we know that every time you have a large project it
-            disrupts the community for years. Jail building always comes with a
-            very large price tag.
+          Since the March rally, NUBC has been working with their lawyer to gather plaintiffs and file a lawsuit at the federal level. 
           </p>
         </div>
       </div>

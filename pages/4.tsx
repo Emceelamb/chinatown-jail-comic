@@ -117,7 +117,7 @@ const PanelFour = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          This is the city’s first design-build rather than design-bid-build
+          This is the city’s first "design, build" rather than "design, bid, build"
           project, so we don’t have any idea what the design is.
         </p>
       </div>
@@ -346,11 +346,11 @@ const PanelTwelve = () => {
       <div className="w-1/3">
         <FadeInSection>
           <Image
-            src="/C11.png"
+            src="/C12.png"
             alt=""
             layout="responsive"
             width={877}
-            height={583}
+            height={737}
           />
         </FadeInSection>
       </div>
@@ -369,13 +369,13 @@ const PanelThirteen = () => {
   return (
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-12">
       <div className="w-1/3">
-        <FadeInSection>
+      <FadeInSection>
           <Image
-            src="/C12.png"
+            src="/C11.png"
             alt=""
             layout="responsive"
             width={877}
-            height={737}
+            height={583}
           />
         </FadeInSection>
       </div>

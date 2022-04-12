@@ -8,12 +8,6 @@ import "animate.css/animate.min.css";
 
 import { Interviews } from "../components/Interviews";
 
-const BoopButton = () => {
-  const [play] = useSound("/boopSfx");
-
-  return <button onClick={play}>Boop!</button>;
-};
-
 const Home: NextPage = () => {
   return (
     <div className={""}>
@@ -43,13 +37,7 @@ const Home: NextPage = () => {
 };
 
 const PanelOne = () => {
-  const [height, setHeight] = useState(0);
-
-  useEffect(() => {
-    setHeight(window.innerHeight);
-  });
-
-  return (
+   return (
     <FadeInSection>
       <div className="w-full relative h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">

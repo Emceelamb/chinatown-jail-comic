@@ -8,11 +8,7 @@ import "animate.css/animate.min.css";
 
 import { Interviews } from "../components/Interviews";
 
-const BoopButton = () => {
-  const [play] = useSound("/boopSfx");
 
-  return <button onClick={play}>Boop!</button>;
-};
 
 const Home: NextPage = () => {
   return (
@@ -44,11 +40,6 @@ const Home: NextPage = () => {
 };
 
 const PanelOne = () => {
-  const [height, setHeight] = useState(0);
-
-  useEffect(() => {
-    setHeight(window.innerHeight);
-  });
 
   return (
     <FadeInSection>

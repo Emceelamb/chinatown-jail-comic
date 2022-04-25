@@ -10,7 +10,7 @@ const Interviews = () => {
           <h2 className="text-4xl font-bold">Interviewees</h2>
           <p className="text-center font-winnieyoe text-2xl">
             Explore four community members’ perspectives on the jail plan and
-            their relationship with Chinatown.
+            their relationship with Chinatown. *Parts of the interviews have been edited for clarity.
           </p>
         </div>
         <div className="w-full m-auto flex flex-row space-x-4">

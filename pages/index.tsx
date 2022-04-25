@@ -43,7 +43,7 @@ const App: NextPage = () => {
   return (
     <div className="App">
       <Head>
-        <title>Chinatown Mega Jail</title>
+        <title>Chinatown Jail</title>
       </Head>
       <Menu />
       <ReactFullpage
@@ -69,6 +69,9 @@ const App: NextPage = () => {
               </div>
               <div className="section">
                 <Interviews />
+              </div>
+              <div className="section">
+                <PanelSix />
               </div>
             </ReactFullpage.Wrapper>
           )

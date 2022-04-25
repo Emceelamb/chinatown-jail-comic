@@ -35,6 +35,7 @@ const Home: NextPage = () => {
         <PanelFour />
         <PanelFive />
         <Interviews />
+        <PanelSix />
       </main>
     </div>
   );

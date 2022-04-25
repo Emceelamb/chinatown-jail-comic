@@ -17,7 +17,7 @@ const Interviews = () => {
           <div className="w-full">
             <div className="cursor">
               <DelayFadeInSection>
-                <Link href="/1">
+                <Link href="/jl">
                   <a className="flex flex-col space-y-4">
                     <Image
                       src="/6a.png"
@@ -40,7 +40,7 @@ const Interviews = () => {
           </div>
           <div className="w-full">
             <DelayFadeInSection>
-              <Link href="/2">
+              <Link href="/kc">
                 <a className="flex flex-col space-y-4">
                   <Image
                     src="/kc.png"
@@ -61,7 +61,7 @@ const Interviews = () => {
           </div>
           <div className="w-full">
             <DelayFadeInSection>
-              <Link href="/3">
+              <Link href="/jy">
                 <a className="flex flex-col space-y-4">
                   <Image
                     src="/jy.png"
@@ -84,7 +84,7 @@ const Interviews = () => {
           </div>
           <div className="w-full">
             <DelayFadeInSection>
-              <Link href="/4">
+              <Link href="/ac">
                 <a className="flex flex-col space-y-4">
                   <Image
                     src="/ac.png"

@@ -232,6 +232,33 @@ const PanelFive = () => {
   );
 };
 
+const PanelSix = () => {
+  return (
+    <div className="w-full relative bg-[#F2F2F2] h-screen">
+      <div className="mt-20 absolute">
+        <div className="w-2/3 m-auto">
+          <p className="font-winnieyoe text-3xl text-center">
+          On April 11, 2022, the Department of Design and Construction started installing construction fencing in preparation for dismantling the Tombs. 
+          </p>
+        </div>
+      </div>
+      {/* <div className="w-full absolute bottom-0">
+        <div className="w-1/2 m-auto mb-10">
+          <FadeInSection>
+            <Image
+              src="/4.png"
+              alt=""
+              layout="responsive"
+              width={977}
+              height={600}
+            />
+          </FadeInSection>
+        </div>
+      </div> */}
+    </div>
+  );
+};
+
 function FadeInSection(props) {
   const [isVisible, setVisible] = useState(true);
   const domRef = useRef();

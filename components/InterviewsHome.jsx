@@ -7,7 +7,7 @@ const Interviews = () => {
     <div className="w-full relative bg-[#F2F2F2] h-screen flex flex-col space-y-8">
       <div className="w-1/2 flex flex-col space-y-8 items-center m-auto">
         <div className="text-center space-y-4">
-          <h2 className="text-4xl font-bold">Interviewees</h2>
+          <h2 className="text-4xl font-bold">Interviews*</h2>
           <p className="text-center font-winnieyoe text-2xl">
             Explore four community members’ perspectives on the jail plan and
             their relationship with Chinatown. *Parts of the interviews have been edited for clarity.

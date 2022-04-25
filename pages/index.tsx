@@ -35,6 +35,7 @@ const Home: NextPage = () => {
         <PanelFour />
         <PanelFive />
         <Interviews />
+        <PanelSix />
       </main>
     </div>
   );
@@ -117,9 +118,7 @@ const PanelTwo = () => {
       <div className="mt-20 absolute">
         <div className="font-winnieyoe text-3xl w-1/2 m-auto text-center">
           <p>
-            On March 20, 2022, hundreds of protestors marched in Manhattan
-            Chinatown to protest against the city’s plan to build the world’s
-            tallest jail in the neighborhood.{" "}
+          On March 20, 2022, hundreds of protestors marched in Chinatown in Manhattan to protest against the city’s plan to build the world’s tallest jail in the neighborhood.{" "}
           </p>
         </div>
       </div>
@@ -147,10 +146,7 @@ const PanelThree = () => {
         <div className="mt-20 absolute">
           <div className="w-2/3 m-auto">
             <p className="font-winnieyoe text-3xl text-center">
-              The jail is part of former Mayor Bill de Blasio’s $8.7 billion
-              plan to close the complex of eight jails on Rikers Island and
-              build four smaller facilities around the city. The city believes
-              the plan will create a smaller and more humane jail system
+            The jail is part of former Mayor Bill de Blasio’s $8.7 billion plan to close the Rikers Island prison complex and build four smaller facilities around the city, one each in Manhattan, Brooklyn, Bronx and Queens. The city believes the plan will create a smaller and more humane jail system.
             </p>
           </div>
         </div>
@@ -206,11 +202,7 @@ const PanelFive = () => {
       <div className="mt-12 absolute">
         <div className="w-1/2 m-auto">
           <p className="font-winnieyoe text-2xl text-center">
-            Over the last decades, the Manhattan Chinatown has faced various
-            challenges: from the impact of 9/11 and subsequently the closure of
-            the Park Row highway, which dramatically reduced flow of traffic and
-            visitors, to the impact of Covid on its restaurant and tourism
-            industy and increasing Asian hate crime....
+          Over the last decades, Chinatown has faced numerous challenges: from the impact of 9/11 and subsequently the closure of the Park Row highway, which dramatically reduced flow of traffic and visitors, to the impact of Covid on its restaurant and tourism industy and increasing Asian hate crime...
           </p>
         </div>
       </div>
@@ -227,6 +219,33 @@ const PanelFive = () => {
           </FadeInSection>
         </div>
       </div>
+    </div>
+  );
+};
+
+const PanelSix = () => {
+  return (
+    <div className="w-full relative bg-[#F2F2F2] h-screen">
+      <div className="mt-20 absolute">
+        <div className="w-2/3 m-auto">
+          <p className="font-winnieyoe text-3xl text-center">
+          On April 11, 2022, the Department of Design and Construction started installing construction fencing in preparation for dismantling the Tombs. 
+          </p>
+        </div>
+      </div>
+      {/* <div className="w-full absolute bottom-0">
+        <div className="w-1/2 m-auto mb-10">
+          <FadeInSection>
+            <Image
+              src="/4.png"
+              alt=""
+              layout="responsive"
+              width={977}
+              height={600}
+            />
+          </FadeInSection>
+        </div>
+      </div> */}
     </div>
   );
 };

@@ -47,7 +47,7 @@ const PanelOne = () => {
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
             Jan Lee is one of the cofounders of Neighbors United Below Canal
-            (N.U.B.C.), a neighborhood activist group that organized the March
+            (NUBC), a neighborhood activist group that organized the March
             20 rally amongst other advocacy work in Chinatown.
           </p>
         </div>
@@ -61,7 +61,7 @@ const PanelTwo = () => {
     <div className="w-full h-screen">
       <div className="w-2/3 m-auto">
         <p className="font-winnieyoe text-2xl text-center">
-          My family has been in Chinatown since 1900. I’m the third generation.
+          My family has been in Chinatown since 1900. I am the third generation.
           We are a small property owner and we have owned different businesses
           over the decade from Chinese hand laundry, gift store, to dry cleaning
           stores.
@@ -78,7 +78,7 @@ const PanelTwo = () => {
       </div>
       <div className="w-2/3 m-auto">
         <p className="font-winnieyoe text-2xl text-center">
-          I own a home furnishing and antique store.
+          I myself own a home furnishing and antique store.
         </p>
       </div>
     </div>
@@ -137,8 +137,7 @@ const PanelFour = () => {
       </div>
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          It was presented as a done deal. It was not a collaborative process.
-          We were shocked.
+          The jail plan was presented as a done deal. It was not a collaborative process. We were shocked.
         </p>
       </div>
     </div>
@@ -246,7 +245,7 @@ const PanelEight = () => {
       </div>
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          We’ve watched the city of New York build jails and tear them down,
+          We have watched the city of New York build jails and tear them down,
           only to build them back, bigger, and then tear them down.
         </p>
       </div>
@@ -348,9 +347,7 @@ const PanelTwelve = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-4">
       <div className="w-2/3">
         <p className="font-winnieyoe text-2xl text-center">
-          From histroy we know that every time you have a large project it
-          disrupts the community for years. Jail building always comes with a
-          very large price tag.
+        From history we know that every time when there is a large building project it disrupts the community for years. It always comes with a very large price tag.
         </p>
       </div>
       <div className="w-2/5">

@@ -58,7 +58,7 @@ const PanelTwo = () => {
       <div className="w-2/3 m-auto">
         <p className="font-winnieyoe text-2xl text-center">
           I lived in this community for 60+ years. I moved here when I was a
-          toddler,
+          toddler.
         </p>
       </div>
       <div className="w-1/2 m-auto">
@@ -72,7 +72,7 @@ const PanelTwo = () => {
       </div>
       <div className="w-2/3 m-auto">
         <p className="font-winnieyoe text-2xl text-center">
-          Chinatown was very small then. It was just 3 and half, four streets.
+          Chinatown was very small then. It was just three and half, four streets.
         </p>
       </div>
     </div>
@@ -131,8 +131,7 @@ const PanelFour = () => {
       </div>
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          When the police came, they arrested him instead of the bully. He
-          didn’t speak English and the neighbor said he hurt him.
+        When the police came, they arrested him instead of the bully. He didn’t speak English and the bully lied and said he hurt him. 
         </p>
       </div>
     </div>
@@ -144,8 +143,7 @@ const PanelFive = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/3">
         <p className="font-winnieyoe text-2xl text-center">
-          Give you an example, in this once case, this guy was hit by his
-          neighbor, a bully.
+        I first read about the borough based jail plan in some periodicals. I contacted then council woman Margaret Chin and ran across a stone wall. That’s how I knew it was true. 
         </p>
       </div>
       <div className="w-1/4">
@@ -161,8 +159,7 @@ const PanelFive = () => {
       </div>
       <div className="w-1/3">
         <p className="font-winnieyoe text-2xl text-center">
-          When the police came, they arrested him instead of the bully. He
-          didn’t speak English and the neighbor said he hurt him.
+        You got to be proactive, not reactive. I wrote one article and got the Chinese press to do another article. Back then, people thought “Ah, it won’t happen.”
         </p>
       </div>
     </div>
@@ -218,8 +215,7 @@ const PanelSeven = () => {
       </div>
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          Had I known it earlier, I would go to those businesses and told them
-          not to leave.
+        Had I known this earlier, I would have gone to those businesses and told them not to leave.
         </p>
       </div>
     </div>
@@ -231,9 +227,7 @@ const PanelEight = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          The problem that hurt Chinatown is we can’t deliver a big block of
-          votes, we’re so divided on issues. The elected know that there’s
-          splintering in the community and they exploit that.
+        The problem that hurts Chinatown is we can’t deliver a big block of votes, we are so divided on issues. The elected know that there’s splintering in the community and they exploit that. 
         </p>
       </div>
       <div className="w-1/3">
@@ -281,7 +275,7 @@ const PanelNine = () => {
       </div>
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          It’s taken me many years to build a platform and I try to work with
+          It’s taken me many years to build a platform. I try to work with
           everyone who’s open for it.
         </p>
       </div>
@@ -294,9 +288,7 @@ const PanelTen = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-2/3">
         <p className="font-winnieyoe text-2xl text-center">
-          During the pandemic, I started the Chinatown Blockwatch. I do the
-          patrol 3, now 2 days a week. We had volunteers from New Jersey, the
-          Bronx, Queens. Not all are Chinese.
+        During the pandemic, I started the Chinatown Blockwatch. I do the patrol three, now two days a week. We had volunteers from New Jersey, the Bronx, Queens. Not all volunteers are Chinese.
         </p>
       </div>
       <div className="w-1/3">

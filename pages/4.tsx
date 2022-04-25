@@ -73,7 +73,7 @@ const PanelTwo = () => {
       </div>
       <div className="w-2/3 m-auto">
         <p className="font-winnieyoe text-2xl text-center">
-          Chinatown was my second home. I spent many weekends here visiting my
+          Chinatown was my second home. I have spent many weekends here visiting my
           grandmother and going to church.
         </p>
       </div>
@@ -86,7 +86,7 @@ const PanelThree = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          Working to fight for Chinatown consumes every premise of my life. I’m
+          Working to fight for Chinatown consumes every premise of my life. I am
           not exercising, I barely sleep.
         </p>
       </div>
@@ -117,7 +117,7 @@ const PanelFour = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          This is the city’s first design-build rather than design-bid-build
+          This is the city’s first "design, build" rather than "design, bid, build"
           project, so we don’t have any idea what the design is.
         </p>
       </div>
@@ -210,7 +210,7 @@ const PanelSeven = () => {
 
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          I also wanted to build out an email form that allows people to find
+          I also wanted to build out an email form that help people find out
           who to email to get attention on different issues.
         </p>
       </div>
@@ -225,7 +225,7 @@ const PanelEight = () => {
         <p className="font-winnieyoe text-xl text-center">
           Until recently, The people fighting the jails and fighting the
           shelters aren’t helping the other. A lot of the shelter language is
-          viewed as NIMBY while some view the jail as a done deal.
+          viewed as NIMBY while some view the jail as a done deal. (*Not in my backyard)
         </p>
       </div>
       <div className="w-3/4">
@@ -266,7 +266,7 @@ const PanelNine = () => {
       </div>
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          A lot of people in Chinatown are Chinese speaking people who didn’t
+          A lot of people in Chinatown are Chinese speaking people who don't
           know what’s going on. There's a whole group of people that I feel is
           untapped. So I'm trying to connect the three Chinatown, Brooklyn, and
           Queens.
@@ -333,7 +333,7 @@ const PanelEleven = () => {
           Center and throw a massive rally bring in Asian performers.
         </p>
         <p className="font-winnieyoe text-2xl text-center">
-          “Can you hear us now? Are you scared now?
+          “Can you hear us now?
         </p>
       </div>
     </div>
@@ -346,18 +346,18 @@ const PanelTwelve = () => {
       <div className="w-1/3">
         <FadeInSection>
           <Image
-            src="/C11.png"
+            src="/C12.png"
             alt=""
             layout="responsive"
             width={877}
-            height={583}
+            height={737}
           />
         </FadeInSection>
       </div>
       <div className="w-1/2 space-y-4">
         <p className="font-winnieyoe text-2xl text-center">
           People are pushing for criminal justice reform, people also want to
-          help the homeless. We want all these other things too, within
+          help the homeless. We want all these other things too. ithin
           Chinatown, it was just like, can you help us too?
         </p>
       </div>
@@ -369,13 +369,13 @@ const PanelThirteen = () => {
   return (
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-12">
       <div className="w-1/3">
-        <FadeInSection>
+      <FadeInSection>
           <Image
-            src="/C12.png"
+            src="/C11.png"
             alt=""
             layout="responsive"
             width={877}
-            height={737}
+            height={583}
           />
         </FadeInSection>
       </div>

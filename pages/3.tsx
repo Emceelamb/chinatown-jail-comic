@@ -99,8 +99,7 @@ const PanelThree = () => {
       </div>
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          Today, I’m still the youngest after 46 years. The building and the
-          residents are aging together.
+        Today, after 46 years, I am still the youngest. The building and the residents are aging together.
         </p>
       </div>
     </div>
@@ -112,9 +111,9 @@ const PanelFour = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          I engaged in community activity since I retired. I was the Chairman of
+          I have engaged in community activity since I retired. I was the Chairman of
           the Chinese Chamber of Commerce of New York, served as the former
-          president of the Chinese Consolidated Benevolent Association....
+          president of the Chinese Consolidated Benevolent Association...
         </p>
       </div>
       <div className="w-1/2">
@@ -138,7 +137,7 @@ const PanelFive = () => {
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           The jail is going to hurt us. We hope they can scale down to a smaller
-          size and shorten constructor time.
+          size and shorter constructor time.
         </p>
       </div>
       <div className="w-1/3">
@@ -166,7 +165,7 @@ const PanelSix = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          There’s also the shelters. 20 hotels were constructed before the
+          There is also the shelters. 20 hotels were constructed before the
           pandemic, after the pandemic they are empty and now the city is
           utilizing the hotel to shelter.
         </p>
@@ -185,7 +184,7 @@ const PanelSix = () => {
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           Small business community just cannot afford so many shelters. It’s an
-          obstacle for our recovery process
+          obstacle for our recovery process.
         </p>
       </div>
     </div>
@@ -288,9 +287,7 @@ const PanelTen = () => {
       </div>
       <div className="w-2/3">
         <p className="font-winnieyoe text-2xl text-center">
-          Before the Pandemic, we’re always worried about where all the
-          organizations are going to be but now they are coming back we see the
-          hope.
+        Before the Pandemic, we are always worried about where all the community organizations are going to be since we are aging but now that young people are coming back we see hope.
         </p>
       </div>
     </div>
@@ -302,8 +299,7 @@ const PanelEleven = () => {
     <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-12">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
-          “In Chinese, we say 危機, 危機. From very negative impact we see the
-          bright hope from this.
+          “In Chinese, we say 危機, 危機, meaning from very negative impact we see the bright hope.
         </p>
       </div>
       <div className="w-2/5">

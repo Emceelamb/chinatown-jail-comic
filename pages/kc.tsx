@@ -109,6 +109,8 @@ const Kc: NextPage = () => {
   );
 };
 
+
+
 const PanelOne = () => {
   return (
     <FadeInSection>

@@ -105,6 +105,8 @@ const Jy: NextPage = () => {
   );
 };
 
+
+
 const PanelOne = () => {
   return (
     <FadeInSection>

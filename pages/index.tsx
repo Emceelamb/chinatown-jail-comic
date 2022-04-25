@@ -7,6 +7,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import { Interviews } from "../components/InterviewsHome";
 
 const App: NextPage = () => {
+
   const Menu = () => (
     <div
       className="menu"
@@ -80,6 +81,10 @@ const App: NextPage = () => {
 const PanelOne = () => {
   const [height, setHeight] = useState(0);
 
+  const moveSectionDown = () => {
+            return fullpage_api.moveSectionDown();
+        };
+
   useEffect(() => {
     setHeight(window.innerHeight);
   });
@@ -100,7 +105,7 @@ const PanelOne = () => {
                 <button
                   className="w-32 bg-gray-200 h-12 font-bold"
                   onClick={() =>
-                    window.scrollTo({ top: height, behavior: "smooth" })
+                    moveSectionDown()
                   }
                 >
                   Begin ↓

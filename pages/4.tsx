@@ -37,6 +37,7 @@ const Home: NextPage = () => {
   );
 };
 
+
 const PanelOne = () => {
   return (
     <FadeInSection>

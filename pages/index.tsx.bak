@@ -237,6 +237,7 @@ const PanelSix = () => {
     <div className="w-full relative bg-[#F2F2F2] h-screen">
       <div className="mt-20 absolute">
         <div className="w-2/3 m-auto">
+          <h2 className="text-4xl font-bold">After note</h2>
           <p className="font-winnieyoe text-3xl text-center">
           On April 11, 2022, the Department of Design and Construction started installing construction fencing in preparation for dismantling the Tombs. 
           </p>

@@ -5,9 +5,11 @@ import Head from "next/head";
 import Image from "next/image";
 import ReactFullpage from "@fullpage/react-fullpage";
 import { Interviews } from "../components/InterviewsHome";
+import { Container } from "../components/Container";
+import { Upper } from "../components/Upper";
+import { ImageContainer } from "../components/Image";
 
 const App: NextPage = () => {
-
   const Menu = () => (
     <div
       className="menu"
@@ -85,8 +87,8 @@ const PanelOne = () => {
   const [height, setHeight] = useState(0);
 
   const moveSectionDown = () => {
-            return fullpage_api.moveSectionDown();
-        };
+    return fullpage_api.moveSectionDown();
+  };
 
   useEffect(() => {
     setHeight(window.innerHeight);
@@ -98,18 +100,14 @@ const PanelOne = () => {
         <div className="absolute w-1/3 mt-20 ml-12 ">
           <DelayFadeInSection>
             <div className="space-y-4">
-              <h1 className="font-bold text-5xl ">
-                For Chinatown
-              </h1>
+              <h1 className="font-bold text-5xl ">For Chinatown</h1>
 
               {/* <p className="font-winnieyoe text-3xl">Intro text</p> */}
 
               <div className="flex flex-col space-y-4">
                 <button
                   className="w-32 bg-gray-200 h-12 font-bold"
-                  onClick={() =>
-                    moveSectionDown()
-                  }
+                  onClick={() => moveSectionDown()}
                 >
                   Begin ↓
                 </button>
@@ -158,27 +156,26 @@ const PanelOne = () => {
 
 const PanelTwo = () => {
   return (
-    <div className="w-full relative bg-[#F2F2F2] h-screen">
-      <div className="mt-20 absolute">
-        <div className="font-winnieyoe text-3xl w-1/2 m-auto text-center">
+    <div className="w-full relative bg-[#F2F2F2] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
           <p>
-          On March 20, 2022, hundreds of protestors marched in Chinatown in Manhattan to protest against the city’s plan to build the world’s tallest jail in the neighborhood.{" "}
+            On March 20, 2022, hundreds of protestors marched in Chinatown in
+            Manhattan to protest against the city’s plan to build the world’s
+            tallest jail in the neighborhood.{" "}
           </p>
-        </div>
-      </div>
-      <div className="inset-x-0 absolute w-screen">
-        <div className="w-10/12 m-auto">
-          <FadeInSection>
-            <Image
-              src="/Context2.png"
-              alt=""
-              layout="responsive"
-              width={2050}
-              height={1153}
-            />
-          </FadeInSection>
-        </div>
-      </div>
+        </Upper>
+        <ImageContainer>
+          <Image
+            src="/Context2.png"
+            alt=""
+            layout="responsive"
+            width={2000}
+            height={600}
+            objectFit="cover"
+          />
+        </ImageContainer>
+      </Container>
     </div>
   );
 };
@@ -186,25 +183,28 @@ const PanelTwo = () => {
 const PanelThree = () => {
   return (
     <FadeInSection>
-      <div className="w-full relative bg-white h-screen ">
-        <div className="mt-20 absolute">
-          <div className="w-2/3 m-auto">
-            <p className="font-winnieyoe text-3xl text-center">
-            The jail is part of former Mayor Bill de Blasio’s $8.7 billion plan to close the Rikers Island prison complex and build four smaller facilities around the city, one each in Manhattan, Brooklyn, Bronx and Queens. The city believes the plan will create a smaller and more humane jail system.
+      <div className="w-full bg-white h-screen flex flex-col justify-center items-center space-y-8">
+        <Container>
+          <Upper>
+            <p className="font-winnieyoe text-xl md:text-2xl text-center">
+              The jail is part of former Mayor Bill de Blasio’s $8.7 billion
+              plan to close the Rikers Island prison complex and build four
+              smaller facilities around the city, one each in Manhattan,
+              Brooklyn, Bronx and Queens. The city believes the plan will create
+              a smaller and more humane jail system.
             </p>
-          </div>
-        </div>
-        <div className="w-full bottom-0 absolute">
-          <div className="w-1/2 m-auto">
+          </Upper>
+          <ImageContainer>
             <Image
               src="/Context3.png"
               alt=""
               layout="responsive"
               width={2050}
-              height={1153}
+              height={800}
+              objectFit="cover"
             />
-          </div>
-        </div>
+          </ImageContainer>
+        </Container>
       </div>
     </FadeInSection>
   );
@@ -212,10 +212,37 @@ const PanelThree = () => {
 
 const PanelFour = () => {
   return (
-    <div className="w-full relative bg-[#F2F2F2] h-screen">
-      <div className="mt-20 absolute">
-        <div className="w-2/3 m-auto">
-          <p className="font-winnieyoe text-3xl text-center">
+    <div className="w-full  flex flex-col  ">
+      <Container>
+        <Upper>
+          <p className="font-winnieyoe text-xl md:text-2xl text-center">
+            In Manhattan, the existing Manhattan Detention Complex (nicknamed
+            the Tombs) will be demolished and replaced with a larger 40 story
+            facility. Community members has been speaking out against the jail
+            plan since 2018.
+          </p>
+        </Upper>
+        <ImageContainer>
+          <Image
+            src="/Context4.gif"
+            alt=""
+            layout="responsive"
+            width={2050}
+            height={1000}
+            objectFit=""
+          />
+        </ImageContainer>
+      </Container>
+    </div>
+  );
+};
+/*
+const PanelFour = () => {
+  return (
+    <div className="red-200 bg-[#F2F2F2]">
+      <div className="w-full  flex-col justify-center items-center align-center space-y-8">
+        <div className="">
+          <p className="font-winnieyoe text-2xl md:text-3xl w-10/12 md:w-1/2 m-auto text-center mt-20">
             In Manhattan, the existing Manhattan Detention Complex (nicknamed
             the Tombs) will be demolished and replaced with a larger 40 story
             facility. Community members has been speaking out against the jail
@@ -223,46 +250,47 @@ const PanelFour = () => {
           </p>
         </div>
       </div>
-      <div className="w-full absolute bottom-0">
-        <div className="w-1/2 m-auto mb-10">
-          <FadeInSection>
-            <Image
-              src="/Context4.gif"
-              alt=""
-              layout="responsive"
-              width={2050}
-              height={1153}
-            />
-          </FadeInSection>
-        </div>
+      <div className="w-10/12">
+        <FadeInSection>
+          <Image
+            src="/Context4.gif"
+            alt=""
+            layout="responsive"
+            width={2050}
+            height={600}
+            objectFit="cover"
+          />
+        </FadeInSection>
       </div>
     </div>
   );
 };
-
+*/
 const PanelFive = () => {
   return (
-    <div className="w-full relative h-screen ">
-      <div className="mt-12 absolute">
-        <div className="w-1/2 m-auto">
-          <p className="font-winnieyoe text-2xl text-center">
-          Over the last decades, Chinatown has faced numerous challenges: from the impact of 9/11 and subsequently the closure of the Park Row highway, which dramatically reduced flow of traffic and visitors, to the impact of Covid on its restaurant and tourism industy and increasing Asian hate crime...
+    <div className="w-full  h-screen flex flex-col justify-center items-center">
+      <Container>
+        <Upper>
+          <p className="font-winnieyoe text-xl md:text-2xl text-center">
+            Over the last decades, Chinatown has faced numerous challenges: from
+            the impact of 9/11 and subsequently the closure of the Park Row
+            highway, which dramatically reduced flow of traffic and visitors, to
+            the impact of Covid on its restaurant and tourism industy and
+            increasing Asian hate crime...
           </p>
-        </div>
-      </div>
-      <div className="w-full absolute bottom-0">
-        <div className="w-3/5 m-auto mb-10">
-          <FadeInSection>
-            <Image
-              src="/Context5.png"
-              alt=""
-              layout="responsive"
-              width={2050}
-              height={1153}
-            />
-          </FadeInSection>
-        </div>
-      </div>
+        </Upper>
+        <ImageContainer>
+          <Image
+            src="/Context5.png"
+            alt=""
+            layout="responsive"
+            width={2050}
+            height={1153}
+            objectFit="cover"
+
+          />
+        </ImageContainer>
+      </Container>
     </div>
   );
 };
@@ -275,7 +303,9 @@ const PanelSix = () => {
           <div className="text-center space-y-4">
             <h2 className="text-4xl font-bold">After note</h2>
             <p className="font-winnieyoe text-3xl text-center">
-            On April 11, 2022, the Department of Design and Construction started installing construction fencing in preparation for dismantling the Tombs. 
+              On April 11, 2022, the Department of Design and Construction
+              started installing construction fencing in preparation for
+              dismantling the Tombs.
             </p>
           </div>
         </div>

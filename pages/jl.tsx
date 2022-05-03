@@ -11,6 +11,9 @@ import ReactFullpage from "@fullpage/react-fullpage";
 
 import { Interviews } from "../components/Interviews";
 
+import { Container, Upper, ImageContainer } from "../components/Container";
+
+
 const Jl: NextPage = () => {
   const Menu = () => (
     <div
@@ -110,7 +113,7 @@ const PanelOne = () => {
 
   return (
     <FadeInSection>
-      <div className="w-full relative h-screen flex flex-col justify-center items-center">
+      <div className="w-full bg-[#fceeee] relative h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
             Jan Lee is one of the cofounders of Neighbors United Below Canal
@@ -125,7 +128,7 @@ const PanelOne = () => {
 
 const PanelTwo = () => {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen bg-[#fceeee]">
       <div className="w-2/3 m-auto">
         <p className="font-winnieyoe text-2xl text-center">
           My family has been in Chinatown since 1900. I am the third generation.
@@ -154,9 +157,9 @@ const PanelTwo = () => {
 
 const PanelThree = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-2">
+    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-2">
       <div className="w-1/2">
-        <p className="font-winnieyoe text-3xl text-center">
+        <p className="font-winnieyoe text-2xl text-center">
           I have been involved in community organizing for more than 25 years.
         </p>
       </div>
@@ -172,7 +175,7 @@ const PanelThree = () => {
         </FadeInSection>
       </div>
       <div className="w-1/2">
-        <p className="font-winnieyoe text-3xl text-center">
+        <p className="font-winnieyoe text-2xl text-center">
           As a business owner, you get more involved when you have a stake in
           the community.
         </p>
@@ -183,7 +186,7 @@ const PanelThree = () => {
 
 const PanelFour = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center">
+    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           I first heard about the jail plan in a small private meeting with less
@@ -213,7 +216,7 @@ const PanelFour = () => {
 
 const PanelFive = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center">
+    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           We realized if we want to sue the city we would need an entity that
@@ -244,7 +247,7 @@ const PanelFive = () => {
 
 const PanelSix = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-12">
+    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-12">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           NUBC is a clearinghouse of information, our volunteers process
@@ -268,7 +271,7 @@ const PanelSix = () => {
 
 const PanelSeven = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <FadeInSection>
           <Image
@@ -292,7 +295,7 @@ const PanelSeven = () => {
 
 const PanelEight = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           It’s important to remember that the history of jails in Chinatown
@@ -322,7 +325,7 @@ const PanelEight = () => {
 
 const PanelNine = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-2/3">
         <p className="font-winnieyoe text-2xl text-center">
           The city gets it wrong every time. We are not NIMBY*.
@@ -348,7 +351,7 @@ const PanelNine = () => {
 
 const PanelTen = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-2/3">
         <p className="font-winnieyoe text-2xl text-center">
           The March 20 protest was multigenerational — there were seniors,
@@ -367,7 +370,7 @@ const PanelTen = () => {
         </FadeInSection>
       </div>
       <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl tex-center">
+        <p className="font-winnieyoe text-2xl text-center">
           This is not just an AAPI issue, people feel very strongly against the
           expansion of incarceration and the answer to criminal justice reform.
         </p>
@@ -378,7 +381,7 @@ const PanelTen = () => {
 
 const PanelEleven = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-2/3">
         <p className="font-winnieyoe text-2xl text-center">
           Chinatown in the United States are always fighting land use issues.
@@ -411,7 +414,7 @@ const PanelEleven = () => {
 
 const PanelTwelve = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-4">
+    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-4">
       <div className="w-2/3">
         <p className="font-winnieyoe text-2xl text-center">
         From history we know that every time when there is a large building project it disrupts the community for years. It always comes with a very large price tag.
@@ -441,7 +444,7 @@ const PanelTwelve = () => {
 const PanelThirteen = () => {
   return (
     <FadeInSection>
-      <div className="w-full relative h-screen flex flex-col justify-center items-center">
+      <div className="w-full bg-[#fceeee] relative h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
           Since the March rally, NUBC has been working with their lawyer to gather plaintiffs and file a lawsuit at the federal level. 

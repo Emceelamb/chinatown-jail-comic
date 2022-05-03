@@ -184,7 +184,7 @@ const PanelFour = () => {
         <p className="font-winnieyoe text-2xl text-center">
           I engaged in community activity since I retired. I was the Chairman of
           the Chinese Chamber of Commerce of New York, served as the former
-          president of the Chinese Consolidated Benevolent Association....
+          president of the Chinese Consolidated Benevolent Association...
         </p>
       </div>
       <div className="w-1/2">
@@ -295,7 +295,7 @@ const PanelEight = () => {
         </FadeInSection>
       </div>
       <div className="w-1/2">
-        <p className="font-winnieyoe text-xl text-center">
+        <p className="font-winnieyoe text-2xl text-center">
           But I am optimistic because we have almost 100 organizations that own
           buildings. This should be very stable for us to exist for the coming
           years.

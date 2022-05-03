@@ -133,7 +133,7 @@ const PanelTwo = () => {
       <div className="w-2/3 m-auto">
         <p className="font-winnieyoe text-2xl text-center">
           I lived in this community for 60+ years. I moved here when I was a
-          toddler,
+          toddler.
         </p>
       </div>
       <div className="w-1/2 m-auto">

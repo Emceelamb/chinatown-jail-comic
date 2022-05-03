@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
 const Interviews = () => {
   return (
-    <div className="w-full relative bg-[#F2F2F2] h-screen flex flex-col space-y-8">
+    <div className="w-full relative bg-white h-screen flex flex-col space-y-8">
       <div className="w-1/2 flex flex-col space-y-8 items-center m-auto">
         <div className="text-center space-y-4">
           <h2 className="text-4xl font-bold">Interviews*</h2>

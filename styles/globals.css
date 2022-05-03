@@ -47,8 +47,7 @@ a {
 
 @font-face {
   font-family: "WinnieYoe";
-  src: url("/fonts/WinnieYoe/winnieyoe.ttf");
+  src: url("/fonts/WinnieYoe/winnieyoe02.ttf");
   font-style: normal;
-  
-
+  letter-spacing: -0.1px;
 }

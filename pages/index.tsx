@@ -5,9 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ReactFullpage from "@fullpage/react-fullpage";
 import { Interviews } from "../components/InterviewsHome";
-import { Container } from "../components/Container";
-import { Upper } from "../components/Upper";
-import { ImageContainer } from "../components/Image";
+import { Container, Upper, ImageContainer } from "../components/Container";
 
 const App: NextPage = () => {
   const Menu = () => (
@@ -156,7 +154,7 @@ const PanelOne = () => {
 
 const PanelTwo = () => {
   return (
-    <div className="w-full relative bg-[#F2F2F2] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#fff] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
         <Upper>
           <p>
@@ -212,7 +210,7 @@ const PanelThree = () => {
 
 const PanelFour = () => {
   return (
-    <div className="w-full  flex flex-col  ">
+    <div className="w-full bg-white flex flex-col  ">
       <Container>
         <Upper>
           <p className="font-winnieyoe text-xl md:text-2xl text-center">
@@ -268,7 +266,7 @@ const PanelFour = () => {
 */
 const PanelFive = () => {
   return (
-    <div className="w-full  h-screen flex flex-col justify-center items-center">
+    <div className="w-full bg-white h-screen flex flex-col justify-center items-center">
       <Container>
         <Upper>
           <p className="font-winnieyoe text-xl md:text-2xl text-center">
@@ -297,7 +295,7 @@ const PanelFive = () => {
 
 const PanelSix = () => {
   return (
-    <div className="w-full relative bg-[#F2F2F2] h-screen">
+    <div className="w-full relative bg-white h-screen">
       <div className="mt-20 absolute">
         <div className="w-2/3 m-auto">
           <div className="text-center space-y-4">

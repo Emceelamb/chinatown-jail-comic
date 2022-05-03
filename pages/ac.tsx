@@ -251,7 +251,7 @@ const PanelSix = () => {
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           Rikers is supposed to close as a prison by August 31, 2027. The city
-          is pushing everything through carelessly because delays are costly..
+          is pushing everything through carelessly because delays are costly.
           I’m now trying to think through how to change the law.
         </p>
       </div>
@@ -297,7 +297,7 @@ const PanelEight = () => {
         <p className="font-winnieyoe text-xl text-center">
           Until recently, The people fighting the jails and fighting the
           shelters aren’t helping the other. A lot of the shelter language is
-          viewed as NIMBY while some view the jail as a done deal.
+          viewed as NIMBY* while some view the jail as a done deal. (*Not in my backyard)
         </p>
       </div>
       <div className="w-3/4">
@@ -371,7 +371,7 @@ const PanelTen = () => {
       </div>
       <div className="w-1/3">
         <p className="font-winnieyoe text-2xl text-center">
-          Black Lives Matter did well. There's a shared experience of Black
+          Black Lives Matter did well. There’s a shared experience of Black
           Lives Matter, right? Which is what unites you.
         </p>
       </div>
@@ -401,11 +401,10 @@ const PanelEleven = () => {
       </div>
       <div className="w-1/2 space-y-4">
         <p className="font-winnieyoe text-2xl text-center">
-          I have an idea in May to book out Madison Square Garden or Barclays
-          Center and throw a massive rally bring in Asian performers.
+        I have an idea in May to book out Madison Square Garden or Barclays Center and throw a massive rally bring in Asian performers.
         </p>
         <p className="font-winnieyoe text-2xl text-center">
-          “Can you hear us now? Are you scared now?
+        “Can you hear us now?”
         </p>
       </div>
     </div>

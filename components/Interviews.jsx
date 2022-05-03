@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
 const Interviews = () => {
   return (
-    <div className="w-full relative bg-[#F2F2F2] h-screen flex flex-col space-y-8">
+    <div className="w-full relative bg-white h-screen flex flex-col space-y-8">
       <div className="w-1/2 flex flex-col space-y-8 items-center m-auto">
         <div className="text-center space-y-4">
           <h2 className="text-4xl font-bold">Interviews*</h2>
@@ -20,7 +20,7 @@ const Interviews = () => {
                 <Link href="/jl">
                   <a className="flex flex-col space-y-4">
                     <Image
-                      src="/6a.png"
+                      src="/Interview1.png"
                       alt=""
                       layout="responsive"
                       width={800}
@@ -43,7 +43,7 @@ const Interviews = () => {
               <Link href="/kc">
                 <a className="flex flex-col space-y-4">
                   <Image
-                    src="/kc.png"
+                    src="/Interview2.png"
                     alt=""
                     layout="responsive"
                     width={800}
@@ -64,7 +64,7 @@ const Interviews = () => {
               <Link href="/jy">
                 <a className="flex flex-col space-y-4">
                   <Image
-                    src="/jy.png"
+                    src="/Interview3.png"
                     alt=""
                     layout="responsive"
                     width={800}
@@ -87,7 +87,7 @@ const Interviews = () => {
               <Link href="/ac">
                 <a className="flex flex-col space-y-4">
                   <Image
-                    src="/ac.png"
+                    src="/Interview4.png"
                     alt=""
                     layout="responsive"
                     width={800}

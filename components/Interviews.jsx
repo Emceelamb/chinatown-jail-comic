@@ -23,8 +23,8 @@ const Interviews = () => {
                       src="/6a.png"
                       alt=""
                       layout="responsive"
-                      width={276}
-                      height={276}
+                      width={800}
+                      height={800}
                     />
                     <div className="text-center space-y-2 font-winnieyoe text-lg">
                       <p>Jan Lee</p>
@@ -46,8 +46,8 @@ const Interviews = () => {
                     src="/kc.png"
                     alt=""
                     layout="responsive"
-                    width={276}
-                    height={276}
+                    width={800}
+                    height={800}
                   />
                   <div className="text-center space-y-2 font-winnieyoe text-lg">
                     <p>Karlin Chan</p>
@@ -67,8 +67,8 @@ const Interviews = () => {
                     src="/jy.png"
                     alt=""
                     layout="responsive"
-                    width={276}
-                    height={276}
+                    width={800}
+                    height={800}
                   />
                   <div className="text-center space-y-2 font-winnieyoe text-lg">
                     <p>Justin Yu</p>
@@ -90,8 +90,8 @@ const Interviews = () => {
                     src="/ac.png"
                     alt=""
                     layout="responsive"
-                    width={276}
-                    height={276}
+                    width={800}
+                    height={800}
                   />
 
                   <div className="text-center space-y-2 font-winnieyoe text-lg">

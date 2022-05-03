@@ -142,11 +142,11 @@ const PanelOne = () => {
         <div className="bottom-0 absolute w-screen -z-10">
           <div className="w-10/12 m-auto bottom-0">
             <Image
-              src="/1.png"
+              src="/Context1.png"
               alt=""
               layout="responsive"
-              width={1248}
-              height={720}
+              width={2050}
+              height={1153}
               className="absolute"
             />
           </div>
@@ -170,11 +170,11 @@ const PanelTwo = () => {
         <div className="w-10/12 m-auto">
           <FadeInSection>
             <Image
-              src="/2.png"
+              src="/Context2.png"
               alt=""
               layout="responsive"
-              width={1247}
-              height={345}
+              width={2050}
+              height={1153}
             />
           </FadeInSection>
         </div>
@@ -197,11 +197,11 @@ const PanelThree = () => {
         <div className="w-full bottom-0 absolute">
           <div className="w-1/2 m-auto">
             <Image
-              src="/3.png"
+              src="/Context3.png"
               alt=""
               layout="responsive"
-              width={1026}
-              height={643}
+              width={2050}
+              height={1153}
             />
           </div>
         </div>
@@ -227,11 +227,11 @@ const PanelFour = () => {
         <div className="w-1/2 m-auto mb-10">
           <FadeInSection>
             <Image
-              src="/4.png"
+              src="/Context4.gif"
               alt=""
               layout="responsive"
-              width={977}
-              height={600}
+              width={2050}
+              height={1153}
             />
           </FadeInSection>
         </div>
@@ -254,11 +254,11 @@ const PanelFive = () => {
         <div className="w-3/5 m-auto mb-10">
           <FadeInSection>
             <Image
-              src="/5.png"
+              src="/Context5.png"
               alt=""
               layout="responsive"
-              width={990}
-              height={535}
+              width={2050}
+              height={1153}
             />
           </FadeInSection>
         </div>
@@ -280,19 +280,19 @@ const PanelSix = () => {
           </div>
         </div>
       </div>
-      {/* <div className="w-full absolute bottom-0">
+      <div className="w-full absolute bottom-0">
         <div className="w-1/2 m-auto mb-10">
           <FadeInSection>
             <Image
-              src="/4.png"
+              src="/Context7.png"
               alt=""
               layout="responsive"
-              width={977}
-              height={600}
+              width={2500}
+              height={700}
             />
           </FadeInSection>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

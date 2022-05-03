@@ -20,11 +20,11 @@ const Interviews = () => {
                 <Link href="/jl">
                   <a className="flex flex-col space-y-4">
                     <Image
-                      src="/6a.png"
+                      src="/Interview1.png"
                       alt=""
                       layout="responsive"
-                      width={276}
-                      height={276}
+                      width={800}
+                      height={800}
                     />
                     <div className="text-center space-y-2 font-winnieyoe text-lg">
                       <p>Jan Lee</p>
@@ -43,11 +43,11 @@ const Interviews = () => {
               <Link href="/kc">
                 <a className="flex flex-col space-y-4">
                   <Image
-                    src="/kc.png"
+                    src="/Interview2.png"
                     alt=""
                     layout="responsive"
-                    width={276}
-                    height={276}
+                    width={800}
+                    height={800}
                   />
                   <div className="text-center space-y-2 font-winnieyoe text-lg">
                     <p>Karlin Chan</p>
@@ -64,11 +64,11 @@ const Interviews = () => {
               <Link href="/jy">
                 <a className="flex flex-col space-y-4">
                   <Image
-                    src="/jy.png"
+                    src="/Interview3.png"
                     alt=""
                     layout="responsive"
-                    width={276}
-                    height={276}
+                    width={800}
+                    height={800}
                   />
                   <div className="text-center space-y-2 font-winnieyoe text-lg">
                     <p>Justin Yu</p>
@@ -87,11 +87,11 @@ const Interviews = () => {
               <Link href="/ac">
                 <a className="flex flex-col space-y-4">
                   <Image
-                    src="/ac.png"
+                    src="/Interview4.png"
                     alt=""
                     layout="responsive"
-                    width={276}
-                    height={276}
+                    width={800}
+                    height={800}
                   />
 
                   <div className="text-center space-y-2 font-winnieyoe text-lg">

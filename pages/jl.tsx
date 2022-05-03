@@ -136,11 +136,11 @@ const PanelTwo = () => {
       </div>
       <div className="w-1/2 m-auto">
         <Image
-          src="/J1.png"
+          src="/JL1.png"
           alt=""
           layout="responsive"
-          width={1080}
-          height={739}
+          width={2500}
+          height={1406}
         />
       </div>
       <div className="w-2/3 m-auto">
@@ -163,11 +163,11 @@ const PanelThree = () => {
       <div className="w-1/3">
         <FadeInSection>
           <Image
-            src="/J2.png"
+            src="/JL2.png"
             alt=""
             layout="responsive"
-            width={928}
-            height={785}
+            width={2500}
+          height={1406}
           />
         </FadeInSection>
       </div>
@@ -194,11 +194,11 @@ const PanelFour = () => {
       <div className="w-1/4">
         <FadeInSection>
           <Image
-            src="/J3.png"
+            src="/JL3.png"
             alt=""
             layout="responsive"
-            width={928}
-            height={785}
+            width={2500}
+            height={1406}
           />
         </FadeInSection>
       </div>
@@ -224,11 +224,11 @@ const PanelFive = () => {
       <div className="w-1/4">
         <FadeInSection>
           <Image
-            src="/J4.png"
+            src="/JL4.png"
             alt=""
             layout="responsive"
-            width={680}
-            height={716}
+            width={2500}
+            height={1406}
           />
         </FadeInSection>
       </div>
@@ -254,11 +254,11 @@ const PanelSix = () => {
       <div className="w-1/2">
         <FadeInSection>
           <Image
-            src="/J5.png"
+            src="/JL5.png"
             alt=""
             layout="responsive"
-            width={972}
-            height={665}
+            width={2500}
+            height={1406}
           />
         </FadeInSection>
       </div>
@@ -272,11 +272,11 @@ const PanelSeven = () => {
       <div className="w-1/2">
         <FadeInSection>
           <Image
-            src="/J6.png"
+            src="/JL6.png"
             alt=""
             layout="responsive"
-            width={1282}
-            height={595}
+            width={2500}
+            height={1406}
           />
         </FadeInSection>
       </div>
@@ -302,11 +302,11 @@ const PanelEight = () => {
       <div className="w-1/3">
         <FadeInSection>
           <Image
-            src="/J7.png"
+            src="/JL7.png"
             alt=""
             layout="responsive"
-            width={1282}
-            height={757}
+            width={2500}
+            height={1406}
           />
         </FadeInSection>
       </div>
@@ -331,7 +331,7 @@ const PanelNine = () => {
       <div className="w-72">
         <FadeInSection>
           <Image
-            src="/J8.png"
+            src="/JL8.png"
             alt=""
             layout="responsive"
             width={611}
@@ -358,11 +358,11 @@ const PanelTen = () => {
       <div className="w-1/3">
         <FadeInSection>
           <Image
-            src="/J9.png"
+            src="/JL9.png"
             alt=""
             layout="responsive"
-            width={972}
-            height={729}
+            width={2500}
+            height={1406}
           />
         </FadeInSection>
       </div>
@@ -390,11 +390,11 @@ const PanelEleven = () => {
       <div className="w-1/2">
         <FadeInSection>
           <Image
-            src="/J10.png"
+            src="/JL10B.png"
             alt=""
             layout="responsive"
-            width={1492}
-            height={730}
+            width={2500}
+            height={1406}
           />
         </FadeInSection>
       </div>
@@ -420,11 +420,11 @@ const PanelTwelve = () => {
       <div className="w-2/5">
         <FadeInSection>
           <Image
-            src="/J11.png"
+            src="/JL11.png"
             alt=""
             layout="responsive"
-            width={1234}
-            height={815}
+            width={2500}
+            height={1406}
           />
         </FadeInSection>
       </div>

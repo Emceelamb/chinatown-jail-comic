@@ -166,7 +166,7 @@ const PanelTwo = () => {
           </p>
         </div>
       </div>
-      <div className="bottom-20 inset-x-0 absolute w-screen">
+      <div className="inset-x-0 absolute w-screen">
         <div className="w-10/12 m-auto">
           <FadeInSection>
             <Image

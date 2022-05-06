@@ -49,5 +49,29 @@ a {
   font-family: "WinnieYoe";
   src: url("/fonts/WinnieYoe/winnieyoe02.ttf");
   font-style: normal;
+  orphans: 3;
+}
+
+p{
+  font-family: "WinnieYoe";
+  src: url("/fonts/WinnieYoe/winnieyoe02.ttf");
+  font-style: normal;
   letter-spacing: -0.1px;
+  orphans:3;
+}
+
+p.wrap-inline {
+  overflow:hidden;
+}
+
+h1 {
+  font-family: "WinnieYoe";
+  src: url("/fonts/WinnieYoe/winnieyoe02.ttf");
+  font-style: normal;
+}
+
+button {
+  font-family: "WinnieYoe";
+  src: url("/fonts/WinnieYoe/winnieyoe02.ttf");
+  font-style: normal;
 }

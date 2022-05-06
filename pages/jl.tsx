@@ -11,7 +11,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 
 import { Interviews } from "../components/Interviews";
 
-import { Container, Upper, ImageContainer } from "../components/Container";
+import { Container, Upper, Lower, ImageContainer } from "../components/Container";
 
 
 const Jl: NextPage = () => {
@@ -128,143 +128,149 @@ const PanelOne = () => {
 
 const PanelTwo = () => {
   return (
-    <div className="w-full h-screen bg-[#fceeee]">
-      <div className="w-2/3 m-auto">
-        <p className="font-winnieyoe text-2xl text-center">
+    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
           My family has been in Chinatown since 1900. I am the third generation.
           We are a small property owner and we have owned different businesses
-          over the decade from Chinese hand laundry, gift store, to dry cleaning
-          stores.
-        </p>
-      </div>
-      <div className="w-1/2 m-auto">
-        <Image
-          src="/JL1.png"
-          alt=""
-          layout="responsive"
-          width={2500}
-          height={1406}
-        />
-      </div>
-      <div className="w-2/3 m-auto">
-        <p className="font-winnieyoe text-2xl text-center">
-          I myself own a home furnishing and antique store.
-        </p>
-      </div>
+          over the decade from Chinese hand laundry, gift store, to dry cleaning&nbsp;stores.
+          </p>
+        </Upper>
+        <ImageContainer>
+          <Image
+            src="/JL1.png"
+            alt=""
+            layout="responsive"
+            width={2500}
+            height={1000}
+            objectFit="cover"
+          />
+        </ImageContainer>
+        <Lower>
+          <p>
+          AI myself own a home furnishing and antique&nbsp;store.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelThree = () => {
   return (
-    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-2">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          I have been involved in community organizing for more than 25 years.
-        </p>
-      </div>
-      <div className="w-1/3">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
+          I have been involved in community organizing for more than 25&nbsp;years.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JL2.png"
             alt=""
             layout="responsive"
             width={2500}
-          height={1406}
+            height={1000}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+        </ImageContainer>
+        <Lower>
+          <p>
           As a business owner, you get more involved when you have a stake in
-          the community.
-        </p>
-      </div>
+          the&nbsp;community.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelFour = () => {
   return (
-    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
           I first heard about the jail plan in a small private meeting with less
           than a dozen of community leaders and organizations. The city made a
-          presentation with the council member of the time, Margaret Chin.
-        </p>
-      </div>
-      <div className="w-1/4">
-        <FadeInSection>
+          presentation with the council member of the time, Margaret&nbsp;Chin.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JL3.png"
             alt=""
             layout="responsive"
             width={2500}
-            height={1406}
+            height={1000}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          The jail plan was presented as a done deal. It was not a collaborative process. We were shocked.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p>
+          The jail plan was presented as a done deal. It was not a collaborative process. We were&nbsp;shocked.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelFive = () => {
   return (
-    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+    <div style={{orphans:3}} className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
           We realized if we want to sue the city we would need an entity that
           would bring people together to create a singular news source, and a
-          singular voice that could amplify what Chinatown really felt.
-        </p>
-      </div>
-      <div className="w-1/4">
-        <FadeInSection>
+          singular voice that could amplify what Chinatown really&nbsp;felt.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JL4.png"
             alt=""
             layout="responsive"
             width={2500}
-            height={1406}
+            height={900}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div>
-        <p className="font-winnieyoe text-2xl text-center">
+        </ImageContainer>
+        <Lower>
+          <p>
           That’s how Neighbors United Below Canal started, with Christopher
-          Marte* and I.
-        </p>
-      </div>
+          Marte* and&nbsp;I.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelSix = () => {
   return (
-    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-12">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+    <div style={{orphans:3}} className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
           NUBC is a clearinghouse of information, our volunteers process
-          technical information for the layperson.
-        </p>
-      </div>
-      <div className="w-1/2">
-        <FadeInSection>
+          technical information for the&nbsp;layperson.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JL5.png"
             alt=""
             layout="responsive"
             width={2500}
-            height={1406}
+            height={900}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
+        </ImageContainer>
+      </Container>
     </div>
   );
 };
@@ -272,172 +278,180 @@ const PanelSix = () => {
 const PanelSeven = () => {
   return (
     <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <FadeInSection>
+      <Container>
+        <ImageContainer>
           <Image
             src="/JL6.png"
             alt=""
             layout="responsive"
             width={2500}
-            height={1406}
+            height={900}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+        </ImageContainer>
+        <Lower>
+          <p>
           We also partner with other organizations to do workshops, townhalls,
-          and outreach.
-        </p>
-      </div>
+          and&nbsp;outreach.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelEight = () => {
   return (
-    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
           It’s important to remember that the history of jails in Chinatown
-          traces back to 1983.
-        </p>
-      </div>
-      <div className="w-1/3">
-        <FadeInSection>
+          traces back to&nbsp;1983.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JL7.png"
             alt=""
             layout="responsive"
             width={2500}
-            height={1406}
+            height={1000}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+        </ImageContainer>
+        <Lower>
+          <p>
           We have watched the city of New York build jails and tear them down,
-          only to build them back, bigger, and then tear them down.
-        </p>
-      </div>
+          only to build them back, bigger, and then tear them&nbsp;down.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelNine = () => {
   return (
-    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-2/3">
-        <p className="font-winnieyoe text-2xl text-center">
-          The city gets it wrong every time. We are not NIMBY*.
+    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <Container>
+      <Upper>
+        <p>
+        The city gets it wrong every time. We are not NIMBY*.
         </p>
-      </div>
-      <div className="w-72">
-        <FadeInSection>
-          <Image
-            src="/JL8.png"
-            alt=""
-            layout="responsive"
-            width={611}
-            height={907}
-          />
-        </FadeInSection>
-      </div>
-      <div>
-        <p className="font-winnieyoe text-2xl text-center">* Not in my backyard</p>
-      </div>
-    </div>
+      </Upper>
+      <ImageContainer>
+        <Image
+          src="/JL8.png"
+          alt=""
+          layout="responsive"
+          width={2050}
+          height={1153}
+          objectFit="scale-down"
+        />
+      </ImageContainer>
+      <Lower>
+        <p>
+        * Not in my backyard
+        </p>
+      </Lower>
+    </Container>
+  </div>
   );
 };
 
 const PanelTen = () => {
   return (
-    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-2/3">
-        <p className="font-winnieyoe text-2xl text-center">
+    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
           The March 20 protest was multigenerational — there were seniors,
-          children, and everyone in between. I felt encouraged.
-        </p>
-      </div>
-      <div className="w-1/3">
-        <FadeInSection>
+          children, and everyone in between. I felt&nbsp;encouraged.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JL9.png"
             alt=""
             layout="responsive"
             width={2500}
-            height={1406}
+            height={1000}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+        </ImageContainer>
+        <Lower>
+          <p>
           This is not just an AAPI issue, people feel very strongly against the
-          expansion of incarceration and the answer to criminal justice reform.
-        </p>
-      </div>
+          expansion of incarceration and the answer to criminal justice&nbsp;reform.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelEleven = () => {
   return (
-    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-2/3">
-        <p className="font-winnieyoe text-2xl text-center">
+    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
           Chinatown in the United States are always fighting land use issues.
           Chinatown build up undesirable corners of the city, and once the
           community made the investment, the government come in and try to take
           that land back.
-        </p>
-      </div>
-      <div className="w-1/2">
-        <FadeInSection>
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JL10B.png"
             alt=""
             layout="responsive"
             width={2500}
-            height={1406}
+            height={1000}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+        </ImageContainer>
+        <Lower>
+          <p>
           It’s just like Harlem, the government is dumping a lot of unfavorable
           things in this community while they keep other white communities more
           pristine.
-        </p>
-      </div>
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelTwelve = () => {
   return (
-    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-4">
-      <div className="w-2/3">
-        <p className="font-winnieyoe text-2xl text-center">
+    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <Container>
+      <Upper>
+        <p>
         From history we know that every time when there is a large building project it disrupts the community for years. It always comes with a very large price tag.
         </p>
-      </div>
-      <div className="w-2/5">
-        <FadeInSection>
-          <Image
-            src="/JL11.png"
-            alt=""
-            layout="responsive"
-            width={2500}
-            height={1406}
-          />
-        </FadeInSection>
-      </div>
-      <div>
-        <p className="font-winnieyoe text-2xl">
-          If we lose this, we lose Chinatown. If stopping the jail is not
+      </Upper>
+      <ImageContainer>
+        <Image
+          src="/JL11.png"
+          alt=""
+          layout="responsive"
+          width={2500}
+          height={1000}
+          objectFit="cover"
+        />
+      </ImageContainer>
+      <Lower>
+        <p>
+        If we lose this, we lose Chinatown. If stopping the jail is not
           successful, there is no Chinatown.
         </p>
-      </div>
-    </div>
+      </Lower>
+    </Container>
+  </div>
   );
 };
 

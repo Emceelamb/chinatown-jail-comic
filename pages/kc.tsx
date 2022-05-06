@@ -114,7 +114,7 @@ const Kc: NextPage = () => {
 const PanelOne = () => {
   return (
     <FadeInSection>
-      <div className="w-full relative h-screen flex flex-col justify-center items-center">
+      <div className="w-full bg-[#eef1f5] relative h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
             Karlin Chan is a long time independent community activist. During
@@ -129,7 +129,7 @@ const PanelOne = () => {
 
 const PanelTwo = () => {
   return (
-    <div className="w-full h-screen space-y-8">
+    <div className="w-full bg-[#eef1f5] h-screen space-y-8">
       <div className="w-2/3 m-auto">
         <p className="font-winnieyoe text-2xl text-center">
           I lived in this community for 60+ years. I moved here when I was a
@@ -138,11 +138,11 @@ const PanelTwo = () => {
       </div>
       <div className="w-1/2 m-auto">
         <Image
-          src="/K1.png"
+          src="/KC1.png"
           alt=""
           layout="responsive"
-          width={1231}
-          height={738}
+          width={2050}
+          height={1153}
         />
       </div>
       <div className="w-2/3 m-auto">
@@ -156,7 +156,7 @@ const PanelTwo = () => {
 
 const PanelThree = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-2">
+    <div className="w-full bg-[#eef1f5] h-screen relative flex flex-col justify-center items-center space-y-2">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           I started out as an advocate for crime victims.
@@ -165,11 +165,11 @@ const PanelThree = () => {
       <div className="w-1/4">
         <FadeInSection>
           <Image
-            src="/K2.png"
+            src="/KC2.png"
             alt=""
             layout="responsive"
-            width={558}
-            height={538}
+            width={2050}
+            height={1153}
           />
         </FadeInSection>
       </div>
@@ -186,7 +186,7 @@ const PanelThree = () => {
 
 const PanelFour = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#eef1f5] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           Give you an example, in this once case, this guy was hit by his
@@ -196,11 +196,11 @@ const PanelFour = () => {
       <div className="w-1/4">
         <FadeInSection>
           <Image
-            src="/K3.png"
+            src="/KC3.png"
             alt=""
             layout="responsive"
-            width={973}
-            height={708}
+            width={2050}
+            height={1153}
           />
         </FadeInSection>
       </div>
@@ -216,7 +216,7 @@ const PanelFour = () => {
 
 const PanelFive = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#eef1f5] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/3">
         <p className="font-winnieyoe text-2xl text-center">
           Give you an example, in this once case, this guy was hit by his
@@ -226,11 +226,11 @@ const PanelFive = () => {
       <div className="w-1/4">
         <FadeInSection>
           <Image
-            src="/K4.png"
+            src="/KC4.png"
             alt=""
             layout="responsive"
-            width={877}
-            height={483}
+            width={2050}
+            height={1153}
           />
         </FadeInSection>
       </div>
@@ -246,7 +246,7 @@ const PanelFive = () => {
 
 const PanelSix = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center ">
+    <div className="w-full bg-[#eef1f5] h-screen relative flex flex-col justify-center items-center ">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           Right when the city announced the plan, I organized a rally. I
@@ -258,11 +258,11 @@ const PanelSix = () => {
       <div className="w-1/3">
         <FadeInSection>
           <Image
-            src="/K5.png"
+            src="/KC5.png"
             alt=""
             layout="responsive"
-            width={728}
-            height={859}
+            width={2050}
+            height={1153}
           />
         </FadeInSection>
       </div>
@@ -272,7 +272,7 @@ const PanelSix = () => {
 
 const PanelSeven = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#eef1f5] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           Last week, I got a tip that Chung Pak management also manages the
@@ -283,11 +283,11 @@ const PanelSeven = () => {
       <div className="w-1/3">
         <FadeInSection>
           <Image
-            src="/K6.png"
+            src="/KC6.png"
             alt=""
             layout="responsive"
-            width={800}
-            height={708}
+            width={2050}
+            height={1153}
           />
         </FadeInSection>
       </div>
@@ -303,7 +303,7 @@ const PanelSeven = () => {
 
 const PanelEight = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#eef1f5] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           The problem that hurt Chinatown is we can’t deliver a big block of
@@ -314,11 +314,11 @@ const PanelEight = () => {
       <div className="w-1/3">
         <FadeInSection>
           <Image
-            src="/K7.png"
+            src="/KC7.png"
             alt=""
             layout="responsive"
-            width={1245}
-            height={675}
+            width={2050}
+            height={1153}
           />
         </FadeInSection>
       </div>
@@ -335,7 +335,7 @@ const PanelEight = () => {
 
 const PanelNine = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#eef1f5] h-screen relative flex flex-col justify-center items-center space-y-4 ">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           I work alone, I call myself an independent community activist and
@@ -343,17 +343,54 @@ const PanelNine = () => {
           yourself with an organization, you lose your independent voice.
         </p>
       </div>
-      <div className="w-10/12">
-        <FadeInSection>
+      <FadeInSection>
+        <div className="flex">
+          <div className="w-64">
+
+            <Image
+              src="/KC8a.png"
+              alt=""
+              layout="responsive"
+              width={300}
+              height={400}
+              objectFit="cover"
+            />
+          </div>
+          <div className="w-64">
+
+            <Image
+              src="/KC8b.png"
+              alt=""
+              layout="responsive"
+              width={300}
+              height={400}
+              objectFit="cover"
+            />
+          </div>
+          <div className="w-64">
           <Image
-            src="/K8.png"
+            src="/KC8c.png"
             alt=""
             layout="responsive"
-            width={1805}
-            height={533}
+            width={300}
+            height={400}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
+          </div>
+          <div className="w-64">
+          <Image
+            src="/KC8d.png"
+            alt=""
+            layout="responsive"
+            width={300}
+            height={400}
+            objectFit="cover"
+          />
+          </div>
+        </div>
+
+      </FadeInSection>
+
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           It’s taken me many years to build a platform and I try to work with
@@ -366,7 +403,7 @@ const PanelNine = () => {
 
 const PanelTen = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#eef1f5] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-2/3">
         <p className="font-winnieyoe text-2xl text-center">
           During the pandemic, I started the Chinatown Blockwatch. I do the
@@ -377,11 +414,11 @@ const PanelTen = () => {
       <div className="w-1/3">
         <FadeInSection>
           <Image
-            src="/K9.png"
+            src="/KC9.png"
             alt=""
             layout="responsive"
-            width={649}
-            height={600}
+            width={2050}
+            height={1153}
           />
         </FadeInSection>
       </div>
@@ -397,7 +434,7 @@ const PanelTen = () => {
 
 const PanelEleven = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#eef1f5] h-screen relative flex flex-col justify-center items-center space-y-8">
       <div className="w-1/2">
         <p className="font-winnieyoe text-2xl text-center">
           I’m 60 something, I’d like to retire and enjoy my golden years, but
@@ -407,11 +444,11 @@ const PanelEleven = () => {
       <div className="w-1/4">
         <FadeInSection>
           <Image
-            src="/K10.png"
+            src="/KC10.png"
             alt=""
             layout="responsive"
-            width={663}
-            height={999}
+            width={2050}
+            height={1152}
           />
         </FadeInSection>
       </div>
@@ -422,15 +459,15 @@ const PanelEleven = () => {
 const PanelTwelve = () => {
   return (
     <FadeInSection>
-      <div className="w-full relative h-screen flex flex-col justify-center items-center">
+      <div className="w-full bg-[#eef1f5] relative h-screen flex flex-col justify-center items-center">
         <div className="w-1/3">
           <FadeInSection>
             <Image
-              src="/K11.png"
+              src="/KC11.png"
               alt=""
               layout="responsive"
-              width={1234}
-              height={815}
+              width={2050}
+              height={1152}
             />
           </FadeInSection>
         </div>

@@ -19,11 +19,21 @@ export const Upper = (props) => {
   );
 };
 
+export const Lower = (props) => {
+  return (
+    <div className="font-winnieyoe text-xl md:text-2xl w-10/12 md:w-1/2  text-center mb-20">
+      <p>
+        {props.children}
+      </p>
+    </div>
+  );
+};
+
 
 export const ImageContainer = ({children}) => {
   return (
     <div className="inset-x-0 w-3/4">
-      <div className="w-10/12 m-auto">
+      <div className="w-full m-auto">
         <FadeInSection>{children}</FadeInSection>
       </div>
     </div>

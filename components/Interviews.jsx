@@ -5,34 +5,39 @@ import { useEffect, useState, useRef } from "react";
 const Interviews = () => {
   return (
     <div className="w-full relative bg-white h-screen flex flex-col space-y-8">
-      <div className="w-1/2 flex flex-col space-y-8 items-center m-auto">
-        <div className="text-center space-y-4">
+      <div className="w-10/12 flex flex-col space-y-8 items-center m-auto">
+        <div className="w-3/5 text-center space-y-4">
           <h2 className="text-4xl font-bold">Interviews*</h2>
           <p className="text-center font-winnieyoe text-2xl">
             Explore four community members’ perspectives on the jail plan and
-            their relationship with Chinatown. *Parts of the interviews have been edited for clarity.
+            their relationship with Chinatown. *Parts of the interviews have been edited for&nbsp;clarity.
           </p>
         </div>
-        <div className="w-full m-auto flex flex-row space-x-4">
+        <div className="w-full m-auto flex flex-row space-x-8">
           <div className="w-full">
             <div className="cursor">
               <DelayFadeInSection>
                 <Link href="/jl">
-                  <a className="flex flex-col space-y-4">
-                    <Image
-                      src="/Interview1.png"
-                      alt=""
-                      layout="responsive"
-                      width={800}
-                      height={800}
-                    />
-                    <div className="text-center space-y-2 font-winnieyoe text-lg">
-                      <p>Jan Lee</p>
-                      <p className="leading-tight">
-                        Cofounder of Neighbors United Below Canal (NUBC), a
-                        neighborhood activist group
-                      </p>
+                  <a className="flex flex-col space-y-4 items-center">
+                    <div>
+                      <Image
+                        src="/Interview1.png"
+                        alt=""
+                        layout="responsive"
+                        width={800}
+                        height={800}
+                      />
+                      <div className="text-center space-y-2 font-winnieyoe text-lg">
+                        <p>Jan Lee</p>
+                        <p className="leading-tight">
+                          “If stopping the jail is not successful, there is no Chinatown.”
+                        </p>
+                      </div>
                     </div>
+
+                    <button className="w-16 h-8 bg-gray-200 font-bold text-l justify-self-end">
+                      Read →
+                    </button>
                   </a>
                 </Link>
               </DelayFadeInSection>
@@ -41,76 +46,90 @@ const Interviews = () => {
           <div className="w-full">
             <DelayFadeInSection>
               <Link href="/kc">
-                <a className="flex flex-col space-y-4">
-                  <Image
-                    src="/Interview2.png"
-                    alt=""
-                    layout="responsive"
-                    width={800}
-                    height={800}
-                  />
-                  <div className="text-center space-y-2 font-winnieyoe text-lg">
-                    <p>Karlin Chan</p>
-                    <p className="leading-tight">
-                      Independent community activist
-                    </p>
-                  </div>
+              <a className="flex flex-col space-y-4 items-center">
+                    <div>
+                      <Image
+                        src="/Interview2.png"
+                        alt=""
+                        layout="responsive"
+                        width={800}
+                        height={800}
+                      />
+                      <div className="text-center space-y-2 font-winnieyoe text-lg">
+                        <p>Karlin Chan</p>
+                        <p className="leading-tight">
+                        “Had I known it earlier, I would go to those businesses and told them not to leave.”
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <button className="w-16 h-8 bg-gray-200 font-bold text-l">
+                      Read →
+                    </button>
                 </a>
               </Link>
             </DelayFadeInSection>
           </div>
           <div className="w-full">
             <DelayFadeInSection>
-              <Link href="/jy">
-                <a className="flex flex-col space-y-4">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={800}
-                    height={800}
-                  />
-                  <div className="text-center space-y-2 font-winnieyoe text-lg">
-                    <p>Justin Yu</p>
-                    <p className="leading-tight">
-                      Chairman of the Chinese Chamber of Commerce of New York,
-                      former President of the Chinese Consolidated Benevolent
-                      Association (CCBA)
-                    </p>
-                  </div>
+              <a className="flex flex-col space-y-4 items-center">
+                    <div>
+                      <Image
+                        src="/Interview3.png"
+                        alt=""
+                        layout="responsive"
+                        width={800}
+                        height={800}
+                      />
+                      <div className="text-center space-y-2 font-winnieyoe text-lg">
+                        <p>Justin Yu</p>
+                        <p className="leading-tight">
+                        “From very negative impact we see the bright hope from this.”
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <button className="w-16 h-8 bg-gray-200 font-bold text-l">
+                      Read →
+                    </button>
                 </a>
-              </Link>
             </DelayFadeInSection>
           </div>
           <div className="w-full">
             <DelayFadeInSection>
               <Link href="/ac">
-                <a className="flex flex-col space-y-4">
-                  <Image
-                    src="/Interview4.png"
-                    alt=""
-                    layout="responsive"
-                    width={800}
-                    height={800}
-                  />
-
-                  <div className="text-center space-y-2 font-winnieyoe text-lg">
-                    <p>Anonymous Contributor</p>
-                    <p className="leading-tight">
-                      Software engineer. Recently started their advocacy work
-                    </p>
-                  </div>
+              <a className="flex flex-col space-y-4 items-center">
+                    <div>
+                      <Image
+                        src="/Interview4.png"
+                        alt=""
+                        layout="responsive"
+                        width={800}
+                        height={800}
+                      />
+                      <div className="text-center space-y-2 font-winnieyoe text-lg">
+                        <p>Anonymous Contributor</p>
+                        <p className="leading-tight">
+                        “If you zoomed out far enough it’s the same story, a story of institutionalized hate.”
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <button className="w-16 h-8 bg-gray-200 font-bold text-l flex-end">
+                      Read →
+                    </button>
                 </a>
               </Link>
             </DelayFadeInSection>
           </div>
         </div>
+{/* 
         <Link href="/">
           <a>
 
           <button className="bg-[#F2C94C] px-8 py-2 rounded-lg font-bold">Back</button>
           </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

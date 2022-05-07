@@ -6,7 +6,7 @@ const Interviews = () => {
   return (
     <div className="w-full relative bg-white h-screen flex flex-col space-y-8">
       <div className="w-10/12 flex flex-col space-y-8 items-center m-auto">
-        <div className="w-full md:w-3/5 text-center space-y-4">
+        <div className="w-3/5 md:w-3/5 text-center space-y-4">
           <h2 className="font-bold md:text-4xl text-3xl text-center mb-4">Interviews*</h2>
           <div>
           <p className="text-center font-winnieyoe text-2xl leading-tight">
@@ -16,7 +16,7 @@ const Interviews = () => {
           <p className="md:text-lg text-sm" style={{orphans: 2}}>*Parts of the interviews have been edited for&nbsp;clarity.</p>
           </div>
         </div>
-        <div className="w-full m-auto flex flex-row space-x-8 items-baseline">
+        <div className="w-10/12 m-auto flex flex-row space-x-8 items-baseline">
           <div className="w-full">
             <div className="cursor">
               <DelayFadeInSection>

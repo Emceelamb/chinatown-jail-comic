@@ -88,7 +88,7 @@ const PanelOne = () => {
   return (
     <div style={{ orphans: 3 }} className="w-full relative bg-[#fff] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
-        <div className="absolute z-10 mb-52">
+        <div className="absolute z-10 mb-72">
           <div className="w-full flex flex-col justify-center items-center bg-gradient-to-b from-white via-white">
             <div className="md:w-1/2 md:p-0 p-8 md:mt-0">
               <h1 className="font-bold md:text-5xl text-3xl text-center mb-6">

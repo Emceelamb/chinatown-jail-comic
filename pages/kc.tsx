@@ -584,6 +584,7 @@ const PanelTwelve = () => {
   );
 };
 
+
 function FadeInSection(props) {
   const [isVisible, setVisible] = useState(true);
   const domRef = useRef();

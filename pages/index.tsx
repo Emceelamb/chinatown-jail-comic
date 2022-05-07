@@ -74,7 +74,7 @@ const App: NextPage = () => {
                 <PanelSix />
               </div>
               <div className="section">
-                <PanelSeven />
+                <Credits />
               </div>
             </ReactFullpage.Wrapper>
           )
@@ -373,7 +373,7 @@ const PanelSix = () => {
   );
 };
 
-const PanelSeven = () => {
+const Credits = () => {
   return (
     <div className="w-full bg-white h-screen flex flex-col justify-center items-center">
       <Container>
@@ -389,15 +389,34 @@ const PanelSeven = () => {
             </div>
 
             <div className="">
-              <p className="text-left text-lg leading-none mb-4">Yang, Stephanie (2020, May 7). New York’s Chinatown businesses struggle to survive coronavirus shutdown. The Wall Street Journal. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.wsj.com/articles/new-yorks-chinatown-businesses-struggle-to-survive-coronavirus-shutdown-11588856400">https://www.wsj.com/articles/new-yorks-chinatown-businesses-struggle-to-survive-coronavirus-shutdown-11588856400</a></p>
+              <div className="mb-8">
+                <p className="text-left font-bold text-lg leading-none mb-2">General</p>
 
-              <p className="text-left text-lg leading-none mb-4">Knowles, H., &amp; Bellware, K. (2020, May 16). Fear sent her Chinatown restaurant spiraling. the challenges to reopening feel 'just impossible.’. The Washington Post. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.washingtonpost.com/nation/2020/05/16/asian-american-business-coronavirus/">https://www.washingtonpost.com/nation/2020/05/16/asian-american-business-coronavirus/</a></p>
+                <p className="text-left text-lg leading-none mb-4">Yang, Stephanie (2020, May 7). New York’s Chinatown businesses struggle to survive coronavirus shutdown. The Wall Street Journal. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.wsj.com/articles/new-yorks-chinatown-businesses-struggle-to-survive-coronavirus-shutdown-11588856400">https://www.wsj.com/articles/new-yorks-chinatown-businesses-struggle-to-survive-coronavirus-shutdown-11588856400</a></p>
 
-              <p className="text-left text-lg leading-none mb-4">Rong, XiaoQing(2021, September 22). Chinatown Street has been closed since 9/11, and residents are fed up. Documented. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://documentedny.com/2021/09/10/this-chinatown-street-has-been-shut-down-since-9-11-and-residents-are-fed-up/">https://documentedny.com/2021/09/10/this-chinatown-street-has-been-shut-down-since-9-11-and-residents-are-fed-up/</a></p>
+                <p className="text-left text-lg leading-none mb-4">Knowles, H., &amp; Bellware, K. (2020, May 16). Fear sent her Chinatown restaurant spiraling. the challenges to reopening feel 'just impossible.’. The Washington Post. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.washingtonpost.com/nation/2020/05/16/asian-american-business-coronavirus/">https://www.washingtonpost.com/nation/2020/05/16/asian-american-business-coronavirus/</a></p>
 
-              <p className="text-left text-lg leading-none mb-4">City of New York. (2022, February 18). NYC borough-based jails<a className="underline decoration-dotted decoration-1" target="_blank" href="https://rikers.cityofnewyork.us/nyc-borough-based-jails/">https://rikers.cityofnewyork.us/nyc-borough-based-jails/</a></p>
+                <p className="text-left text-lg leading-none mb-4">Rong, XiaoQing(2021, September 22). Chinatown Street has been closed since 9/11, and residents are fed up. Documented. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://documentedny.com/2021/09/10/this-chinatown-street-has-been-shut-down-since-9-11-and-residents-are-fed-up/">https://documentedny.com/2021/09/10/this-chinatown-street-has-been-shut-down-since-9-11-and-residents-are-fed-up/</a></p>
 
-              <p className="text-left text-lg leading-none mb-4">@nubnyc. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.instagram.com/nubcnyc/">https://www.instagram.com/nubcnyc/</a></p>
+                <p className="text-left text-lg leading-none mb-4">City of New York. (2022, February 18). NYC borough-based jails<a className="underline decoration-dotted decoration-1" target="_blank" href="https://rikers.cityofnewyork.us/nyc-borough-based-jails/">https://rikers.cityofnewyork.us/nyc-borough-based-jails/</a></p>
+              </div>
+
+              <div className="mb-8">
+                <p className="text-left text-lg leading-none mb-2">In Jan Lee’s section</p>
+                <p className="text-left text-lg leading-none mb-4">Shenon, Philip. (1983, Oct. 17). <a className="underline decoration-dotted" href="https://www.nytimes.com/1983/10/17/nyregion/tombs-to-reopen-with-a-new-look.html">Tombs to reopen with a new look.</a> The New York Times.
+                </p>
+
+                <p className="text-left text-lg leading-none mb-4">@nubnyc. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.instagram.com/nubcnyc/">https://www.instagram.com/nubcnyc/</a></p>
+
+              </div>
+
+              <div className="mb-8">
+                <p className="text-left font-bold text-lg leading-none mb-2">In Karlin Chan’s section</p>
+                <p className="text-left text-lg leading-none mb-4">Chao, Evelyn. (2021, April 1). The Chinatown Block Watch, one year later. Curbed. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.curbed.com/2021/04/chinatown-block-watch-one-year-later.html">https://www.curbed.com/2021/04/chinatown-block-watch-one-year-later.html</a></p>
+
+                <p className="text-left text-lg leading-none mb-4">McDonough, Annie, &amp; Rahaman, Maryam. (2021, July 6). 2021 New York City Council Primary Election Results. City &amp; State NY.<a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.cityandstateny.com/politics/2021/06/2021-new-york-city-council-primary-election-results/182745/">https://www.cityandstateny.com/politics/2021/06/2021-new-york-city-council-primary-election-results/182745/</a></p>
+              </div>
+
             </div>
           </div>
         </Upper>

@@ -8,6 +8,7 @@ import useSound from "use-sound";
 import "animate.css/animate.min.css";
 
 import { Interviews } from "../components/Interviews";
+import { Container, Upper, Lower, ImageContainer } from "../components/Container";
 import ReactFullpage from "@fullpage/react-fullpage";
 
 const Ac: NextPage = () => {
@@ -34,12 +35,12 @@ const Ac: NextPage = () => {
           </Link>
           <Link href="/jy">
             <a
- className="hover:underline"
+              className="hover:underline"
             >Justin Y.</a>
           </Link>
           <Link href="/ac">
             <a
- className="underline"
+              className="underline"
             >Anonymous</a>
           </Link>
         </li>
@@ -112,7 +113,7 @@ const Ac: NextPage = () => {
 const PanelOne = () => {
   return (
     <FadeInSection>
-      <div className="w-full relative h-screen flex flex-col justify-center items-center">
+      <div className="w-full bg-[#fef8f3] relative h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
             Anonymous contributor C is an engineer who has recently started
@@ -127,118 +128,116 @@ const PanelOne = () => {
 
 const PanelTwo = () => {
   return (
-    <div className="w-full h-screen space-y-12">
-      <div className="w-2/3 m-auto">
-        <p className="font-winnieyoe text-2xl text-center">
-          My grandmother lived in Chung Pak and passed away 1.5 months ago. I
-          found out about the jail when I went to her funeral.
-        </p>
-      </div>
-      <div className="w-2/3 m-auto">
-        <Image
-          src="/C1.png"
-          alt=""
-          layout="responsive"
-          width={1702}
-          height={646}
-        />
-      </div>
-      <div className="w-2/3 m-auto">
-        <p className="font-winnieyoe text-2xl text-center">
-          Chinatown was my second home. I spent many weekends here visiting my
-          grandmother and going to church.
-        </p>
-      </div>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
+            My grandmother lived in Chung Pak and passed away 1.5 months ago. I
+            found out about the jail when I went to her&nbsp;funeral.
+          </p>
+        </Upper>
+        <ImageContainer>
+          <Image
+            src="/C1.png"
+            alt=""
+            layout="responsive"
+            width={1702}
+            height={646}
+            objectFit="cover"
+          />
+        </ImageContainer>
+        <Lower>
+          <p>
+            Chinatown was my second home. I spent many weekends here visiting my grandmother and going to&nbsp;church.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelThree = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          Working to fight for Chinatown consumes every premise of my life. I’m
-          not exercising, I barely sleep.
-        </p>
-      </div>
-      <div className="w-1/3">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
+            Working to fight for Chinatown consumes every premise of my life. I’m
+            not exercising, I barely&nbsp;sleep.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/C2.png"
             alt=""
             layout="responsive"
             width={1049}
             height={772}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-2/3">
-        <p className="font-winnieyoe text-2xl text-center">
-          My husband and I are trying to have a kid later this year but I keep
-          thinking, how am I supposed to fight for Chinatown and try to have a
-          kid?
-        </p>
-      </div>
+        </ImageContainer>
+      </Container>
     </div>
   );
 };
 
 const PanelFour = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          This is the city’s first design-build rather than design-bid-build
-          project, so we don’t have any idea what the design is.
-        </p>
-      </div>
-      <div className="w-1/4">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
+            This is the city’s first design-build rather than design-bid-build
+            project, so we don’t have any idea what the design&nbsp;is.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/C3.png"
             alt=""
             layout="responsive"
             width={716}
             height={893}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
+        </ImageContainer>
+      </Container>
     </div>
   );
 };
 
 const PanelFive = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/4">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <ImageContainer>
           <Image
             src="/C4.png"
             alt=""
             layout="responsive"
-            width={656}
-            height={602}
+            width={1702}
+            height={646}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          There’s water in the soil of Canal street that would need to be pumped
-          out, that’s actually really risky. Pile driving is about 120 decibels,
-          how are they going to mitigate that? How can the businesses and the
-          citizens in the building survive? I don’t get it.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p>
+            There’s water in the soil of Canal street that would need to be pumped
+            out, that’s actually really risky. Pile driving is about 120 decibels,
+            how are they going to mitigate that? How can the businesses and the
+            citizens in the building survive? I don’t get&nbsp;it.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelSix = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-10/12">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <ImageContainer>
           <Image
             src="/C5.png"
             alt=""
@@ -246,87 +245,88 @@ const PanelSix = () => {
             width={1690}
             height={347}
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          Rikers is supposed to close as a prison by August 31, 2027. The city
-          is pushing everything through carelessly because delays are costly.
-          I’m now trying to think through how to change the law.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p>
+            Rikers is supposed to close as a prison by August 31, 2027. The city
+            is pushing everything through carelessly because delays are costly.
+            I’m now trying to think through how to change the&nbsp;law.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelSeven = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          I started my platform to teach people the story, the history. I just
-          finished this page I’ll post on the site.
-        </p>
-      </div>
-      <div className="w-1/3">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p className="font-winnieyoe text-2xl text-center">
+            I started my platform to teach people the story, the history. I just
+            finished this page I’ll post on the&nbsp;site.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/C6.png"
             alt=""
             layout="responsive"
             width={934}
-            height={726}
+            height={400}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          I also wanted to build out an email form that allows people to find
-          who to email to get attention on different issues.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p className="font-winnieyoe text-2xl text-center">
+            I also wanted to build out an email form that allows people to find
+            who to email to get attention on different&nbsp;issues.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelEight = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-xl text-center">
-          Until recently, The people fighting the jails and fighting the
-          shelters aren’t helping the other. A lot of the shelter language is
-          viewed as NIMBY* while some view the jail as a done deal. (*Not in my backyard)
-        </p>
-      </div>
-      <div className="w-3/4">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p className="font-winnieyoe text-2xl text-center">
+            Until recently, The people fighting the jails and fighting the
+            shelters aren’t helping the other. A lot of the shelter language is
+            viewed as NIMBY* while some view the jail as a done deal. (*Not in my&nbsp;backyard)
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/C7.png"
             alt=""
             layout="responsive"
             width={1737}
             height={533}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-xl text-center">
-          If you zoomed out far enough it’s the same story, it’s a story of
-          institutionalized hate and pushing through things to Chinatown because
-          people don’t have a voice. That’s the story.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p className="font-winnieyoe text-2xl text-center">
+            If you zoomed out far enough it’s the same story, it’s a story of
+            institutionalized hate and pushing through things to Chinatown because
+            people don’t have a voice. That’s the&nbsp;story.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelNine = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <ImageContainer>
           <Image
             src="/C8.png"
             alt=""
@@ -334,32 +334,33 @@ const PanelNine = () => {
             width={1077}
             height={755}
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          A lot of people in Chinatown are Chinese speaking people who didn’t
-          know what’s going on. There's a whole group of people that I feel is
-          untapped. So I'm trying to connect the three Chinatown, Brooklyn, and
-          Queens.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p className="font-winnieyoe text-2xl text-center">
+            A lot of people in Chinatown are Chinese speaking people who didn’t
+            know what’s going on. There's a whole group of people that I feel is
+            untapped. So I'm trying to connect the three Chinatown, Brooklyn, and
+            &nbsp;Queens.
+          </p>
+        </Lower>
+      </Container>
     </div>
+
   );
 };
 
 const PanelTen = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-12">
-      <div className="w-1/3">
-        <p className="font-winnieyoe text-2xl text-center">
-          How did we get here? AAPI wasn’t watching. I wasn’t watching. We
-          generally speaking haven’t been civically engaged, there hasn’t been
-          an issue that brings us together.
-        </p>
-      </div>
-      <div className="w-1/3">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p className="font-winnieyoe text-2xl text-center">
+            How did we get here? AAPI wasn’t watching. I wasn’t watching. We
+            generally speaking haven’t been civically engaged, there hasn’t been
+            an issue that brings us&nbsp;together.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/C9.png"
             alt=""
@@ -367,29 +368,29 @@ const PanelTen = () => {
             width={974}
             height={576}
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/3">
-        <p className="font-winnieyoe text-2xl text-center">
-          Black Lives Matter did well. There’s a shared experience of Black
-          Lives Matter, right? Which is what unites you.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p className="font-winnieyoe text-2xl text-center">
+            Black Lives Matter did well. There’s a shared experience of Black
+            Lives Matter, right? Which is what unites&nbsp;you.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelEleven = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-12">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          There are so many nuances within AAPI, within all those cultures, and
-          nobody's going to understand what it's like.
-        </p>
-      </div>
-      <div className="w-2/5">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p className="font-winnieyoe text-2xl text-center">
+            There are so many nuances within AAPI, within all those cultures, and
+            nobody's going to understand what it's&nbsp;like.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/C10.png"
             alt=""
@@ -397,25 +398,25 @@ const PanelEleven = () => {
             width={1463}
             height={736}
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2 space-y-4">
-        <p className="font-winnieyoe text-2xl text-center">
-        I have an idea in May to book out Madison Square Garden or Barclays Center and throw a massive rally bring in Asian performers.
-        </p>
-        <p className="font-winnieyoe text-2xl text-center">
-        “Can you hear us now?”
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p className="font-winnieyoe text-2xl text-center">
+            I have an idea in May to book out Madison Square Garden or Barclays Center and throw a massive rally bring in Asian&nbsp;performers.
+          </p>
+          <p className="font-winnieyoe text-2xl text-center">
+            “Can you hear us&nbsp;now?”
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelTwelve = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-12">
-      <div className="w-1/3">
-        <FadeInSection>
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <ImageContainer>
           <Image
             src="/C11.png"
             alt=""
@@ -423,40 +424,42 @@ const PanelTwelve = () => {
             width={877}
             height={583}
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2 space-y-4">
-        <p className="font-winnieyoe text-2xl text-center">
-          People are pushing for criminal justice reform, people also want to
-          help the homeless. We want all these other things too, within
-          Chinatown, it was just like, can you help us too?
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p className="font-winnieyoe text-2xl text-center">
+            People are pushing for criminal justice reform, people also want to
+            help the homeless. We want all these other things too, within
+            Chinatown, it was just like, can you help us&nbsp;too?
+          </p>
+
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelThirteen = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-12">
-      <div className="w-1/3">
-        <FadeInSection>
-          <Image
-            src="/C12.png"
-            alt=""
-            layout="responsive"
-            width={877}
-            height={737}
-          />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2 space-y-4">
+    <div className="w-full relative bg-[#fef8f3] h-screen flex items-center flex-col justify-center space-y-10">
+    <Container>
+      <ImageContainer>
+        <Image
+           src="/C12.png"
+           alt=""
+           layout="responsive"
+           width={877}
+           height={737}
+        />
+      </ImageContainer>
+      <Lower>
         <p className="font-winnieyoe text-2xl text-center">
-          You’re pro-closing Rikers, are you also pro-protecting the
-          marginalized people of Chinatown?
+        You’re pro-closing Rikers, are you also pro-protecting the
+          marginalized people of&nbsp;Chinatown?
         </p>
-      </div>
-    </div>
+
+      </Lower>
+    </Container>
+  </div>
   );
 };
 

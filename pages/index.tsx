@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ReactFullpage from "@fullpage/react-fullpage";
 import { Interviews } from "../components/InterviewsHome";
-import { Container, Upper, ImageContainer } from "../components/Container";
+import { Container, Upper, Lower, ImageContainer } from "../components/Container";
 
 const App: NextPage = () => {
   const Menu = () => (
@@ -73,6 +73,9 @@ const App: NextPage = () => {
               <div className="section">
                 <PanelSix />
               </div>
+              <div className="section">
+                <PanelSeven />
+              </div>
             </ReactFullpage.Wrapper>
           )
         }
@@ -83,29 +86,28 @@ const App: NextPage = () => {
 
 const PanelOne = () => {
   return (
-    <div style={{orphans:3}} className="w-full relative bg-[#fff] h-screen flex items-center flex-col justify-center space-y-10">
+    <div style={{ orphans: 3 }} className="w-full relative bg-[#fff] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
-        <div className="absolute z-10 mb-48">
-          <div className="w-full flex flex-col justify-center items-center">
-            <div className="w-3/5">
-              <h1 className="font-bold text-5xl text-center mb-6">
+        <div className="absolute z-10 mb-52">
+          <div className="w-full flex flex-col justify-center items-center bg-gradient-to-b from-white via-white">
+            <div className="md:w-1/2 md:p-0 p-8 md:mt-0">
+              <h1 className="font-bold md:text-5xl text-3xl text-center mb-6">
                 Can you hear us now?
               </h1>
-              <p className="text-xl text-center">
+              <p className="text-xl text-center md:leading-tight leading-none">
                 Community members in New York Chinatown have been fighting against the construction of a new jail since its announcement in 2017. Some believe the decision will displace an already marginalized community and view the plan as a racist legacy of urban renewal in Chinatowns across the country. Follow along to see how four community members have responded to the jail&nbsp;plan.
               </p>
             </div>
 
-            <button className="w-24 h-12 bg-gray-200 font-bold text-xl mt-8" onClick={() => moveSectionDown()}>
+            <button className="w-24 h-12 bg-[#F2C94C]/90 font-bold text-xl md:mt-8 mt-2" onClick={() => moveSectionDown()}>
               Begin ↓
             </button>
 
           </div>
         </div>
-        <div className=" w-1/2 h-full">
+        <div className="w-full md:w-4/6 h-full">
           <div className="flex flex-col items-center justify-end h-full">
             <div className="w-full">
-
               <Image
                 src="/Context1.png"
                 alt=""
@@ -197,7 +199,7 @@ const PanelOne = () => {
 
 const PanelTwo = () => {
   return (
-    <div style={{orphans:4}} className="w-full relative bg-[#fff] h-screen flex items-center flex-col justify-center space-y-10">
+    <div style={{ orphans: 4 }} className="w-full relative bg-[#fff] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
         <Upper>
           <p>
@@ -212,7 +214,7 @@ const PanelTwo = () => {
             alt=""
             layout="responsive"
             width={2000}
-            height={600}
+            height={900}
             objectFit="cover"
           />
         </ImageContainer>
@@ -224,7 +226,7 @@ const PanelTwo = () => {
 const PanelThree = () => {
   return (
     <FadeInSection>
-      <div style={{orphans:4}} className="w-full bg-white h-screen flex flex-col justify-center items-center space-y-8">
+      <div style={{ orphans: 4 }} className="w-full bg-white h-screen flex flex-col justify-center items-center space-y-8">
         <Container>
           <Upper>
             <p className="font-winnieyoe text-xl md:text-2xl text-center">
@@ -253,7 +255,7 @@ const PanelThree = () => {
 
 const PanelFour = () => {
   return (
-    <div style={{orphans:4}} className="w-full bg-white flex flex-col  ">
+    <div style={{ orphans: 4 }} className="w-full bg-white flex flex-col">
       <Container>
         <Upper>
           <p className="font-winnieyoe text-xl md:text-2xl text-center">
@@ -338,32 +340,68 @@ const PanelFive = () => {
 
 const PanelSix = () => {
   return (
-    <div style={{orphans:3}} className="w-full relative bg-white h-screen">
-      <div className="mt-20 absolute">
-        <div className="w-2/3 m-auto">
-          <div className="text-center space-y-4">
-            <h2 className="text-4xl font-bold">After note</h2>
-            <p className="font-winnieyoe text-3xl text-center">
-              On April 11, 2022, the Department of Design and Construction
-              started installing construction fencing in preparation for
-              dismantling the Tombs.
+    <div className="w-full bg-white h-screen flex flex-col justify-center items-center">
+      <Container>
+        <Upper>
+          <div>
+            <h1 className="font-bold md:text-5xl text-3xl text-center mb-6">Endnotes</h1>
+            <p className="font-winnieyoe text-xl md:text-2xl text-center">
+              On April 11, 2022, the Department of Design and Construction started installing construction fencing in preparation for dismantling the Tombs.
             </p>
           </div>
-        </div>
-      </div>
-      <div className="w-full absolute bottom-0">
-        <div className="w-1/2 m-auto mb-10">
-          <FadeInSection>
-            <Image
-              src="/Context7.png"
-              alt=""
-              layout="responsive"
-              width={2500}
-              height={700}
-            />
-          </FadeInSection>
-        </div>
-      </div>
+        </Upper>
+        <ImageContainer>
+          <Image
+            src="/Context7.png"
+            alt=""
+            layout="responsive"
+            width={2050}
+            height={500}
+            objectFit="cover"
+          />
+        </ImageContainer>
+        <Lower>
+          <div className="flex flex-col">
+            <p className="font-bold text-xl md:text-2xl mr-6 mb-2">Share your story</p>
+            <p className="font-winnieyoe text-lg md:text-xl text-center mb-8">
+              Want to share your thoughts about the jail plan in Chinatown? <a target="_blank" className="underline decoration-dotted decoration-1" href="https://dufzo9ilgdz.typeform.com/to/g7eMpXeP?typeform-source=admin.typeform.com">Reach out here.</a>
+            </p>
+          </div>
+        </Lower>
+      </Container>
+    </div>
+  );
+};
+
+const PanelSeven = () => {
+  return (
+    <div className="w-full bg-white h-screen flex flex-col justify-center items-center">
+      <Container>
+        <Upper>
+          <div className="flex flex-row items-baseline mb-12">
+            <p className="font-bold text-lg mr-8">Credits</p>
+            <p className="text-left text-lg leading-none">Design and writing by <a className="underline decoration-dotted decoration-1" target="_blank" href="https://winnieyoe.com/" target="_blank">Winnie Yoe</a>. Development by <a className="underline decoration-dotted decoration-1" target="_blank" href="https://markofthelam.com/">Mark Lam</a>. Thank you to all interviewees and advisors for their generous time and thoughtful contribution.</p>
+          </div>
+
+          <div className="flex flex-row items-baseline">
+            <div>
+              <p className="font-bold text-lg mr-8">Sources</p>
+            </div>
+
+            <div className="">
+              <p className="text-left text-lg leading-none mb-4">Yang, Stephanie (2020, May 7). New York’s Chinatown businesses struggle to survive coronavirus shutdown. The Wall Street Journal. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.wsj.com/articles/new-yorks-chinatown-businesses-struggle-to-survive-coronavirus-shutdown-11588856400">https://www.wsj.com/articles/new-yorks-chinatown-businesses-struggle-to-survive-coronavirus-shutdown-11588856400</a></p>
+
+              <p className="text-left text-lg leading-none mb-4">Knowles, H., &amp; Bellware, K. (2020, May 16). Fear sent her Chinatown restaurant spiraling. the challenges to reopening feel 'just impossible.’. The Washington Post. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.washingtonpost.com/nation/2020/05/16/asian-american-business-coronavirus/">https://www.washingtonpost.com/nation/2020/05/16/asian-american-business-coronavirus/</a></p>
+
+              <p className="text-left text-lg leading-none mb-4">Rong, XiaoQing(2021, September 22). Chinatown Street has been closed since 9/11, and residents are fed up. Documented. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://documentedny.com/2021/09/10/this-chinatown-street-has-been-shut-down-since-9-11-and-residents-are-fed-up/">https://documentedny.com/2021/09/10/this-chinatown-street-has-been-shut-down-since-9-11-and-residents-are-fed-up/</a></p>
+
+              <p className="text-left text-lg leading-none mb-4">City of New York. (2022, February 18). NYC borough-based jails<a className="underline decoration-dotted decoration-1" target="_blank" href="https://rikers.cityofnewyork.us/nyc-borough-based-jails/">https://rikers.cityofnewyork.us/nyc-borough-based-jails/</a></p>
+
+              <p className="text-left text-lg leading-none mb-4">@nubnyc. <a className="underline decoration-dotted decoration-1" target="_blank" href="https://www.instagram.com/nubcnyc/">https://www.instagram.com/nubcnyc/</a></p>
+            </div>
+          </div>
+        </Upper>
+      </Container>
     </div>
   );
 };

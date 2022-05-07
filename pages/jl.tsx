@@ -113,7 +113,7 @@ const PanelOne = () => {
 
   return (
     <FadeInSection>
-      <div className="w-full bg-[#fceeee] relative h-screen flex flex-col justify-center items-center">
+      <div className="w-full bg-[#f9efef] relative h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
             Jan Lee is one of the cofounders of Neighbors United Below Canal
@@ -128,7 +128,7 @@ const PanelOne = () => {
 
 const PanelTwo = () => {
   return (
-    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
         <Upper>
           <p>
@@ -149,7 +149,7 @@ const PanelTwo = () => {
         </ImageContainer>
         <Lower>
           <p>
-          AI myself own a home furnishing and antique&nbsp;store.
+          I myself own a home furnishing and antique&nbsp;store.
           </p>
         </Lower>
       </Container>
@@ -159,7 +159,7 @@ const PanelTwo = () => {
 
 const PanelThree = () => {
   return (
-    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
         <Upper>
           <p>
@@ -189,7 +189,7 @@ const PanelThree = () => {
 
 const PanelFour = () => {
   return (
-    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
         <Upper>
           <p>
@@ -210,7 +210,7 @@ const PanelFour = () => {
         </ImageContainer>
         <Lower>
           <p>
-          The jail plan was presented as a done deal. It was not a collaborative process. We were&nbsp;shocked.
+          The jail plan was presented as a done deal. It was not a collaborative process. <span className="underline underline-offset-0">We were&nbsp;shocked.</span>
           </p>
         </Lower>
       </Container>
@@ -220,7 +220,7 @@ const PanelFour = () => {
 
 const PanelFive = () => {
   return (
-    <div style={{orphans:3}} className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
         <Upper>
           <p>
@@ -252,7 +252,7 @@ const PanelFive = () => {
 
 const PanelSix = () => {
   return (
-    <div style={{orphans:3}} className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
         <Upper>
           <p>
@@ -277,7 +277,7 @@ const PanelSix = () => {
 
 const PanelSeven = () => {
   return (
-    <div className="w-full bg-[#fceeee] h-screen relative flex flex-col justify-center items-center space-y-8">
+    <div className="w-full bg-[#f9efef] h-screen relative flex flex-col justify-center items-center space-y-8">
       <Container>
         <ImageContainer>
           <Image
@@ -302,7 +302,7 @@ const PanelSeven = () => {
 
 const PanelEight = () => {
   return (
-    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
         <Upper>
           <p>
@@ -322,8 +322,7 @@ const PanelEight = () => {
         </ImageContainer>
         <Lower>
           <p>
-          We have watched the city of New York build jails and tear them down,
-          only to build them back, bigger, and then tear them&nbsp;down.
+          <span className="underline underline-offset-0">We have watched the city of New York build jails and tear them down, only to build them back, bigger, and then tear them&nbsp;down.</span>
           </p>
         </Lower>
       </Container>
@@ -333,23 +332,30 @@ const PanelEight = () => {
 
 const PanelNine = () => {
   return (
-    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
     <Container>
       <Upper>
         <p>
-        The city gets it wrong every time. We are not NIMBY*.
+        The city gets it wrong every time. We are not&nbsp;NIMBY*.
         </p>
       </Upper>
-      <ImageContainer>
+      <div className="w-1/2">
+        <div>
         <Image
           src="/JL8.png"
           alt=""
           layout="responsive"
           width={2050}
           height={1153}
-          objectFit="scale-down"
         />
-      </ImageContainer>
+        </div>
+
+      <div className="text-center">
+        <p>Shenon, Philip. (1983, Oct. 17). <a className="underline decoration-dotted" href="https://www.nytimes.com/1983/10/17/nyregion/tombs-to-reopen-with-a-new-look.html">Tombs to reopen with a new look.</a> The New York Times.
+        </p>
+      </div>
+      </div>
+      
       <Lower>
         <p>
         * Not in my backyard
@@ -362,7 +368,7 @@ const PanelNine = () => {
 
 const PanelTen = () => {
   return (
-    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
         <Upper>
           <p>
@@ -393,14 +399,14 @@ const PanelTen = () => {
 
 const PanelEleven = () => {
   return (
-    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
       <Container>
         <Upper>
           <p>
           Chinatown in the United States are always fighting land use issues.
           Chinatown build up undesirable corners of the city, and once the
           community made the investment, the government come in and try to take
-          that land back.
+          that land&nbsp;back.
           </p>
         </Upper>
         <ImageContainer>
@@ -417,7 +423,7 @@ const PanelEleven = () => {
           <p>
           It’s just like Harlem, the government is dumping a lot of unfavorable
           things in this community while they keep other white communities more
-          pristine.
+          &nbsp;pristine.
           </p>
         </Lower>
       </Container>
@@ -427,11 +433,11 @@ const PanelEleven = () => {
 
 const PanelTwelve = () => {
   return (
-    <div className="w-full relative bg-[#fceeee] h-screen flex items-center flex-col justify-center space-y-10">
+    <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
     <Container>
       <Upper>
         <p>
-        From history we know that every time when there is a large building project it disrupts the community for years. It always comes with a very large price tag.
+        From history we know that every time when there is a large building project it disrupts the community for years. It always comes with a very large price&nbsp;tag.
         </p>
       </Upper>
       <ImageContainer>
@@ -446,8 +452,8 @@ const PanelTwelve = () => {
       </ImageContainer>
       <Lower>
         <p>
-        If we lose this, we lose Chinatown. If stopping the jail is not
-          successful, there is no Chinatown.
+        <span className="underline underline-offset-0">If we lose this, we lose Chinatown.</span> If stopping the jail is not
+          successful, there is no&nbsp;Chinatown.
         </p>
       </Lower>
     </Container>
@@ -458,7 +464,7 @@ const PanelTwelve = () => {
 const PanelThirteen = () => {
   return (
     <FadeInSection>
-      <div className="w-full bg-[#fceeee] relative h-screen flex flex-col justify-center items-center">
+      <div className="w-full bg-[#f9efef] relative h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
           Since the March rally, NUBC has been working with their lawyer to gather plaintiffs and file a lawsuit at the federal level. 

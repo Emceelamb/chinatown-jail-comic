@@ -11,7 +11,7 @@ export const Container = ({children}) => {
 
 export const Upper = (props) => {
   return (
-    <div className="font-winnieyoe text-xl md:text-2xl w-10/12 md:w-1/2  text-center mt-20">
+    <div className="font-winnieyoe text-xl md:text-2xl w-10/12 md:w-1/2  text-center mt-16">
       <p>
         {props.children}
       </p>
@@ -21,7 +21,7 @@ export const Upper = (props) => {
 
 export const Lower = (props) => {
   return (
-    <div className="font-winnieyoe text-xl md:text-2xl w-10/12 md:w-1/2  text-center mb-20">
+    <div className="font-winnieyoe text-xl md:text-2xl w-10/12 md:w-1/2  text-center mt-16">
       <p>
         {props.children}
       </p>
@@ -32,7 +32,7 @@ export const Lower = (props) => {
 
 export const ImageContainer = ({children}) => {
   return (
-    <div className="inset-x-0 w-3/4">
+    <div className="inset-x-0 w-full md:w-3/5">
       <div className="w-full m-auto">
         <FadeInSection>{children}</FadeInSection>
       </div>

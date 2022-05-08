@@ -417,6 +417,12 @@ const Credits = () => {
                 <p className="text-left text-lg leading-none mb-4">McDonough, Annie, &amp; Rahaman, Maryam. (2021, July 6). 2021 New York City Council Primary Election Results. City &amp; State NY.<a className="underline decoration-dotted decoration-1" target="_blank" rel="noreferrer"  href="https://www.cityandstateny.com/politics/2021/06/2021-new-york-city-council-primary-election-results/182745/">https://www.cityandstateny.com/politics/2021/06/2021-new-york-city-council-primary-election-results/182745/</a></p>
               </div>
 
+              <div className="mb-8">
+                <p className="text-left font-bold text-lg leading-none mb-2">In Anonymous’s section</p>
+                <p className="text-left text-lg leading-none mb-4">Dugyala, Rishika (2021, October 3). What's mobilizing AAPI voters like never before. POLITICO. <a className="underline decoration-dotted decoration-1" target="_blank" rel="noreferrer"  href="https://www.politico.com/newsletters/the-recast/2021/10/03/poll-asian-american-pacific-islander-voters-politics-fear-494533">https://www.politico.com/newsletters/the-recast/2021/10/03/poll-asian-american-pacific-islander-voters-politics-fear-494533</a></p>
+              </div>
+              
+
             </div>
           </div>
         </Upper>

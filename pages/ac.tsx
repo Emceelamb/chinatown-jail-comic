@@ -367,7 +367,7 @@ const PanelTen = () => {
             an issue that brings us&nbsp;together.
           </p>
         </Upper>
-        <ImageContainer>
+        <div className="w-1/2 text-center">
           <Image
             src="/AC9.png"
             alt=""
@@ -375,7 +375,10 @@ const PanelTen = () => {
             width={2050}
             height={800}
           />
-        </ImageContainer>
+          <p>
+            Statistic from <a className="underline decoration-dotted decoration-1" target="_blank" rel="noreferrer" href="https://www.politico.com/newsletters/the-recast/2021/10/03/poll-asian-american-pacific-islander-voters-politics-fear-494533">the POLITICO/Morning Consult poll, 2021</a>
+          </p>
+        </div>
         <Lower>
           <p className="font-winnieyoe text-2xl text-center">
             Black Lives Matter did well. There’s a shared experience of Black

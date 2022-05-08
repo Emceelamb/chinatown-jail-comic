@@ -380,7 +380,7 @@ const Credits = () => {
         <Upper>
           <div className="flex flex-row items-baseline mb-12">
             <p className="font-bold text-lg mr-8">Credits</p>
-            <p className="text-left text-lg leading-none">Design and writing by <a className="underline decoration-dotted decoration-1" target="_blank" rel="noreferrer"  href="https://winnieyoe.com/" target="_blank">Winnie Yoe</a>. Development by <a className="underline decoration-dotted decoration-1" target="_blank" rel="noreferrer"  href="https://markofthelam.com/">Mark Lam</a>. Thank you to all interviewees and advisors for their generous time and thoughtful contribution.</p>
+            <p className="text-left text-lg leading-none">Design and writing by <a className="underline decoration-dotted decoration-1" target="_blank" rel="noreferrer"  href="https://winnieyoe.com/" >Winnie Yoe</a>. Development by <a className="underline decoration-dotted decoration-1" target="_blank" rel="noreferrer"  href="https://markofthelam.com/">Mark Lam</a>. Thank you to all interviewees and advisors for their generous time and thoughtful contribution.</p>
           </div>
 
           <div className="flex flex-row items-baseline">

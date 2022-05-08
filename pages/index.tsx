@@ -402,7 +402,7 @@ const Credits = () => {
               </div>
 
               <div className="mb-8">
-                <p className="text-left text-lg leading-none mb-2">In Jan Lee’s section</p>
+                <p className="text-left font-bold text-lg leading-none mb-2">In Jan Lee’s section</p>
                 <p className="text-left text-lg leading-none mb-4">Shenon, Philip. (1983, Oct. 17). <a className="underline decoration-dotted" href="https://www.nytimes.com/1983/10/17/nyregion/tombs-to-reopen-with-a-new-look.html">Tombs to reopen with a new look.</a> The New York Times.
                 </p>
 

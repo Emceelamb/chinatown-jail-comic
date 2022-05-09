@@ -41,7 +41,7 @@ const Jy: NextPage = () => {
               <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Karlin C.</a>
             </Link>
             <Link href="/jy">
-              <a className=":underline decoration-dotted decoration-1 underline-offset-2">Justin Y.</a>
+              <a className="underline decoration-dotted decoration-1 underline-offset-2">Justin Y.</a>
             </Link>
             <Link href="/ac">
               <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Anonymous</a>
@@ -252,21 +252,6 @@ const Jy: NextPage = () => {
               </div>
               <div className="section">
                 <PanelEleven />
-                <Thumbnail>
-                  <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
-                    />
-                    </div>
-                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Justin Y.</p>
-                  </div>
-                </Thumbnail>
               </div>
               <div className="section">
                 <Interviews />

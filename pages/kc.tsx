@@ -272,39 +272,9 @@ return (
             </div>
             <div className="section">
               <PanelTwelve />
-              <Thumbnail>
-                  <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview2.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
-                    />
-                    </div>
-                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Karlin C.</p>
-                  </div>
-                </Thumbnail>
             </div>
             <div className="section">
               <Interviews />
-              <Thumbnail>
-                  <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview2.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
-                    />
-                    </div>
-                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Karlin C.</p>
-                  </div>
-                </Thumbnail>
             </div>
           </ReactFullpage.Wrapper>
         )

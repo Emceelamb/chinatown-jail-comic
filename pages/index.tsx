@@ -57,7 +57,7 @@ const App: NextPage = () => {
   return (
     <div className="App">
       <Head>
-        <title>Chinatown Jail</title>
+        <title>Can you hear us now? — Chinatown Jail Comic</title>
       </Head>
       <Menu />
 

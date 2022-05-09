@@ -13,11 +13,13 @@ import { Interviews } from "../components/Interviews";
 
 import { Container, Upper, Lower, ImageContainer } from "../components/Container";
 
+import { Thumbnail } from "../components/Thumbnail";
+
 
 const Jl: NextPage = () => {
   const Menu = () => (
     <div
-      className="menu"
+      className="menu w-full flex flex-row items-baseline pl-8 pr-4 py-1 text-xl"
       style={{
         position: "fixed",
         top: 0,
@@ -25,25 +27,33 @@ const Jl: NextPage = () => {
         right: 0,
       }}
     >
-      <ul className="actions">
-        <li className="space-x-4 m-4">
-          <Link href="/">
-            <a className="hover:underline">Home</a>
-          </Link>
-          <Link href="/jl">
-            <a className="underline">Jan L.</a>
-          </Link>
-          <Link href="/kc">
-            <a className="hover:underline">Karlin C.</a>
-          </Link>
-          <Link href="/jy" >
-            <a className="hover:underline">Justin Y.</a>
-          </Link>
-          <Link href="/ac">
-            <a className="hover:underline">Anonymous</a>
-          </Link>
-        </li>
-      </ul>
+      <div className="grow font-bold md:text-2xl">
+        <Link href="/">
+          <a className="">Can you hear us now?</a>
+        </Link>
+      </div>
+
+      <div>
+        <ul className="actions">
+          <li className="space-x-4 m-4">
+            <Link href="/">
+              <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Home</a>
+            </Link>
+            <Link href="/jl">
+              <a className="underline decoration-dotted decoration-1 underline-offset-2">Jan L.</a>
+            </Link>
+            <Link href="/kc">
+              <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Karlin C.</a>
+            </Link>
+            <Link href="/jy">
+              <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Justin Y.</a>
+            </Link>
+            <Link href="/ac">
+              <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Anonymous</a>
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 
@@ -61,42 +71,237 @@ const Jl: NextPage = () => {
             <ReactFullpage.Wrapper>
               <div className="section">
                 <PanelOne />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan Lee</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelTwo />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan Lee</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelThree />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan Lee</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelFour />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan Lee</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelFive />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan Lee</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelSix />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan Lee</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelSeven />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan Lee</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelEight />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan L.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelNine />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan L.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelTen />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan L.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelEleven />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan L.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelTwelve />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan L.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelThirteen />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview1.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Jan L.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <Interviews />
@@ -123,7 +328,8 @@ const PanelOne = () => {
         </div>
       </div>
     </FadeInSection>
-  );
+
+  )
 };
 
 const PanelTwo = () => {
@@ -132,9 +338,9 @@ const PanelTwo = () => {
       <Container>
         <Upper>
           <p>
-          My family has been in Chinatown since 1900. I am the third generation.
-          We are a small property owner and we have owned different businesses
-          over the decade from Chinese hand laundry, gift store, to dry cleaning&nbsp;stores.
+            My family has been in Chinatown since 1900. I am the third generation.
+            We are a small property owner and we have owned different businesses
+            over the decade from Chinese hand laundry, gift store, to dry cleaning&nbsp;stores.
           </p>
         </Upper>
         <ImageContainer>
@@ -149,7 +355,7 @@ const PanelTwo = () => {
         </ImageContainer>
         <Lower>
           <p>
-          I myself own a home furnishing and antique&nbsp;store.
+            I myself own a home furnishing and antique&nbsp;store.
           </p>
         </Lower>
       </Container>
@@ -163,7 +369,7 @@ const PanelThree = () => {
       <Container>
         <Upper>
           <p>
-          I have been involved in community organizing for more than 25&nbsp;years.
+            I have been involved in community organizing for more than 25&nbsp;years.
           </p>
         </Upper>
         <ImageContainer>
@@ -178,8 +384,8 @@ const PanelThree = () => {
         </ImageContainer>
         <Lower>
           <p>
-          As a business owner, you get more involved when you have a stake in
-          the&nbsp;community.
+            As a business owner, you get more involved when you have a stake in
+            the&nbsp;community.
           </p>
         </Lower>
       </Container>
@@ -193,9 +399,9 @@ const PanelFour = () => {
       <Container>
         <Upper>
           <p>
-          I first heard about the jail plan in a small private meeting with less
-          than a dozen of community leaders and organizations. The city made a
-          presentation with the council member of the time, Margaret&nbsp;Chin.
+            I first heard about the jail plan in a small private meeting with less
+            than a dozen of community leaders and organizations. The city made a
+            presentation with the council member of the time, Margaret&nbsp;Chin.
           </p>
         </Upper>
         <ImageContainer>
@@ -210,7 +416,7 @@ const PanelFour = () => {
         </ImageContainer>
         <Lower>
           <p>
-          The jail plan was presented as a done deal. It was not a collaborative process. <span className="underline underline-offset-0">We were&nbsp;shocked.</span>
+            The jail plan was presented as a done deal. It was not a collaborative process. <span className="underline underline-offset-0">We were&nbsp;shocked.</span>
           </p>
         </Lower>
       </Container>
@@ -224,9 +430,9 @@ const PanelFive = () => {
       <Container>
         <Upper>
           <p>
-          We realized if we want to sue the city we would need an entity that
-          would bring people together to create a singular news source, and a
-          singular voice that could amplify what Chinatown really&nbsp;felt.
+            We realized if we want to sue the city we would need an entity that
+            would bring people together to create a singular news source, and a
+            singular voice that could amplify what Chinatown really&nbsp;felt.
           </p>
         </Upper>
         <ImageContainer>
@@ -241,8 +447,8 @@ const PanelFive = () => {
         </ImageContainer>
         <Lower>
           <p>
-          That’s how Neighbors United Below Canal started, with Christopher
-          Marte* and&nbsp;I.
+            That’s how Neighbors United Below Canal started, with Christopher
+            Marte* and&nbsp;I.
           </p>
         </Lower>
       </Container>
@@ -256,8 +462,8 @@ const PanelSix = () => {
       <Container>
         <Upper>
           <p>
-          NUBC is a clearinghouse of information, our volunteers process
-          technical information for the&nbsp;layperson.
+            NUBC is a clearinghouse of information, our volunteers process
+            technical information for the&nbsp;layperson.
           </p>
         </Upper>
         <ImageContainer>
@@ -291,8 +497,8 @@ const PanelSeven = () => {
         </ImageContainer>
         <Lower>
           <p>
-          We also partner with other organizations to do workshops, townhalls,
-          and&nbsp;outreach.
+            We also partner with other organizations to do workshops, townhalls,
+            and&nbsp;outreach.
           </p>
         </Lower>
       </Container>
@@ -306,8 +512,8 @@ const PanelEight = () => {
       <Container>
         <Upper>
           <p>
-          It’s important to remember that the history of jails in Chinatown
-          traces back to&nbsp;1983.
+            It’s important to remember that the history of jails in Chinatown
+            traces back to&nbsp;1983.
           </p>
         </Upper>
         <ImageContainer>
@@ -322,7 +528,7 @@ const PanelEight = () => {
         </ImageContainer>
         <Lower>
           <p>
-          <span className="underline underline-offset-0">We have watched the city of New York build jails and tear them down, only to build them back, bigger, and then tear them&nbsp;down.</span>
+            <span className="underline underline-offset-0">We have watched the city of New York build jails and tear them down, only to build them back, bigger, and then tear them&nbsp;down.</span>
           </p>
         </Lower>
       </Container>
@@ -333,36 +539,36 @@ const PanelEight = () => {
 const PanelNine = () => {
   return (
     <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
-    <Container>
-      <Upper>
-        <p>
-        The city gets it wrong every time. We are not&nbsp;NIMBY*.
-        </p>
-      </Upper>
-      <div className="w-1/2">
-        <div>
-        <Image
-          src="/JL8.png"
-          alt=""
-          layout="responsive"
-          width={2050}
-          height={1153}
-        />
+      <Container>
+        <Upper>
+          <p>
+            The city gets it wrong every time. We are not&nbsp;NIMBY*.
+          </p>
+        </Upper>
+        <div className="w-1/2">
+          <div>
+            <Image
+              src="/JL8.png"
+              alt=""
+              layout="responsive"
+              width={2050}
+              height={1153}
+            />
+          </div>
+
+          <div className="text-center">
+            <p>Shenon, Philip. (1983, Oct. 17). <a className="underline decoration-dotted" href="https://www.nytimes.com/1983/10/17/nyregion/tombs-to-reopen-with-a-new-look.html">Tombs to reopen with a new look.</a> The New York Times.
+            </p>
+          </div>
         </div>
 
-      <div className="text-center">
-        <p>Shenon, Philip. (1983, Oct. 17). <a className="underline decoration-dotted" href="https://www.nytimes.com/1983/10/17/nyregion/tombs-to-reopen-with-a-new-look.html">Tombs to reopen with a new look.</a> The New York Times.
-        </p>
-      </div>
-      </div>
-      
-      <Lower>
-        <p>
-        * Not in my backyard
-        </p>
-      </Lower>
-    </Container>
-  </div>
+        <Lower>
+          <p>
+            * Not in my backyard
+          </p>
+        </Lower>
+      </Container>
+    </div>
   );
 };
 
@@ -372,8 +578,8 @@ const PanelTen = () => {
       <Container>
         <Upper>
           <p>
-          The March 20 protest was multigenerational — there were seniors,
-          children, and everyone in between. I felt&nbsp;encouraged.
+            The March 20 protest was multigenerational — there were seniors,
+            children, and everyone in between. I felt&nbsp;encouraged.
           </p>
         </Upper>
         <ImageContainer>
@@ -388,8 +594,8 @@ const PanelTen = () => {
         </ImageContainer>
         <Lower>
           <p>
-          This is not just an AAPI issue, people feel very strongly against the
-          expansion of incarceration and the answer to criminal justice&nbsp;reform.
+            This is not just an AAPI issue, people feel very strongly against the
+            expansion of incarceration and the answer to criminal justice&nbsp;reform.
           </p>
         </Lower>
       </Container>
@@ -403,10 +609,10 @@ const PanelEleven = () => {
       <Container>
         <Upper>
           <p>
-          Chinatown in the United States are always fighting land use issues.
-          Chinatown build up undesirable corners of the city, and once the
-          community made the investment, the government come in and try to take
-          that land&nbsp;back.
+            Chinatown in the United States are always fighting land use issues.
+            Chinatown build up undesirable corners of the city, and once the
+            community made the investment, the government come in and try to take
+            that land&nbsp;back.
           </p>
         </Upper>
         <ImageContainer>
@@ -421,9 +627,9 @@ const PanelEleven = () => {
         </ImageContainer>
         <Lower>
           <p>
-          It’s just like Harlem, the government is dumping a lot of unfavorable
-          things in this community while they keep other white communities more
-          &nbsp;pristine.
+            It’s just like Harlem, the government is dumping a lot of unfavorable
+            things in this community while they keep other white communities more
+            &nbsp;pristine.
           </p>
         </Lower>
       </Container>
@@ -434,30 +640,30 @@ const PanelEleven = () => {
 const PanelTwelve = () => {
   return (
     <div className="w-full relative bg-[#f9efef] h-screen flex items-center flex-col justify-center space-y-10">
-    <Container>
-      <Upper>
-        <p>
-        From history we know that every time when there is a large building project it disrupts the community for years. It always comes with a very large price&nbsp;tag.
-        </p>
-      </Upper>
-      <ImageContainer>
-        <Image
-          src="/JL11.png"
-          alt=""
-          layout="responsive"
-          width={2500}
-          height={1000}
-          objectFit="cover"
-        />
-      </ImageContainer>
-      <Lower>
-        <p>
-        <span className="underline underline-offset-0">If we lose this, we lose Chinatown.</span> If stopping the jail is not
-          successful, there is no&nbsp;Chinatown.
-        </p>
-      </Lower>
-    </Container>
-  </div>
+      <Container>
+        <Upper>
+          <p>
+            From history we know that every time when there is a large building project it disrupts the community for years. It always comes with a very large price&nbsp;tag.
+          </p>
+        </Upper>
+        <ImageContainer>
+          <Image
+            src="/JL11.png"
+            alt=""
+            layout="responsive"
+            width={2500}
+            height={1000}
+            objectFit="cover"
+          />
+        </ImageContainer>
+        <Lower>
+          <p>
+            <span className="underline underline-offset-0">If we lose this, we lose Chinatown.</span> If stopping the jail is not
+            successful, there is no&nbsp;Chinatown.
+          </p>
+        </Lower>
+      </Container>
+    </div>
   );
 };
 
@@ -467,7 +673,7 @@ const PanelThirteen = () => {
       <div className="w-full bg-[#f9efef] relative h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
-          Since the March rally, NUBC has been working with their lawyer to gather plaintiffs and file a lawsuit at the federal level. 
+            Since the March rally, NUBC has been working with their lawyer to gather plaintiffs and file a lawsuit at the federal level.
           </p>
         </div>
       </div>

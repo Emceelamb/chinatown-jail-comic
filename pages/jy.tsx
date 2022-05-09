@@ -9,11 +9,12 @@ import "animate.css/animate.min.css";
 
 import ReactFullpage from "@fullpage/react-fullpage";
 import { Interviews } from "../components/Interviews";
+import { Thumbnail } from "../components/Thumbnail";
 
 const Jy: NextPage = () => {
   const Menu = () => (
     <div
-      className="menu"
+      className="menu w-full flex flex-row items-baseline pl-8 pr-4 py-1 text-xl"
       style={{
         position: "fixed",
         top: 0,
@@ -21,25 +22,33 @@ const Jy: NextPage = () => {
         right: 0,
       }}
     >
-      <ul className="actions">
-        <li className="space-x-4 m-4">
-          <Link href="/">
-            <a className="hover:underline">Home</a>
-          </Link>
-          <Link href="/jl">
-            <a className="hover:underline">Jan L.</a>
-          </Link>
-          <Link href="/kc">
-            <a className="hover:underline">Karlin C.</a>
-          </Link>
-          <Link href="/jy">
-            <a className="underline">Justin Y.</a>
-          </Link>
-          <Link href="/ac">
-            <a className="hover:underline">Anonymous</a>
-          </Link>
-        </li>
-      </ul>
+      <div className="grow font-bold md:text-2xl">
+        <Link href="/">
+          <a className="">Can you hear us now?</a>
+        </Link>
+      </div>
+
+      <div>
+        <ul className="actions">
+          <li className="space-x-4 m-4">
+            <Link href="/">
+              <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Home</a>
+            </Link>
+            <Link href="/jl">
+              <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Jan L.</a>
+            </Link>
+            <Link href="/kc">
+              <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Karlin C.</a>
+            </Link>
+            <Link href="/jy">
+              <a className=":underline decoration-dotted decoration-1 underline-offset-2">Justin Y.</a>
+            </Link>
+            <Link href="/ac">
+              <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Anonymous</a>
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
   const onLeave = (origin, destination, direction) => {
@@ -63,36 +72,201 @@ const Jy: NextPage = () => {
             <ReactFullpage.Wrapper>
               <div className="section">
                 <PanelOne />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelTwo />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelThree />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelFour />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelFive />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelSix />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelSeven />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelEight />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelNine />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelTen />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <PanelEleven />
+                <Thumbnail>
+                  <div className="w-24 absolute bottom-8">
+                  <Image
+                    src="/Interview3.png"
+                    alt=""
+                    layout="responsive"
+                    width={1000}
+                    height={1000}
+                    objectFit="cover"
+                    />
+                    </div>
+                  <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
+                    <p className="font-bold">Justin Y.</p>
+                  </div>
+                </Thumbnail>
               </div>
               <div className="section">
                 <Interviews />

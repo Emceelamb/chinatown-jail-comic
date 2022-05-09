@@ -13,6 +13,8 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  font-family: "WinnieYoe";
+  src: url("/fonts/WinnieYoe/winnieyoe02.ttf");
 }
 
 a:hover {

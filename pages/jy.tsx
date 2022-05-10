@@ -10,6 +10,7 @@ import "animate.css/animate.min.css";
 import ReactFullpage from "@fullpage/react-fullpage";
 import { Interviews } from "../components/Interviews";
 import { Thumbnail } from "../components/Thumbnail";
+import { Container, Upper, Lower, ImageContainer } from "../components/Container";
 
 const Jy: NextPage = () => {
   const Menu = () => (
@@ -74,15 +75,15 @@ const Jy: NextPage = () => {
                 <PanelOne />
                 <Thumbnail>
                   <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
+                    <Image
+                      src="/Interview3.png"
+                      alt=""
+                      layout="responsive"
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
                     />
-                    </div>
+                  </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
                     <p className="font-bold">Justin Y.</p>
                   </div>
@@ -92,15 +93,15 @@ const Jy: NextPage = () => {
                 <PanelTwo />
                 <Thumbnail>
                   <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
+                    <Image
+                      src="/Interview3.png"
+                      alt=""
+                      layout="responsive"
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
                     />
-                    </div>
+                  </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
                     <p className="font-bold">Justin Y.</p>
                   </div>
@@ -110,15 +111,15 @@ const Jy: NextPage = () => {
                 <PanelThree />
                 <Thumbnail>
                   <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
+                    <Image
+                      src="/Interview3.png"
+                      alt=""
+                      layout="responsive"
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
                     />
-                    </div>
+                  </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
                     <p className="font-bold">Justin Y.</p>
                   </div>
@@ -128,15 +129,15 @@ const Jy: NextPage = () => {
                 <PanelFour />
                 <Thumbnail>
                   <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
+                    <Image
+                      src="/Interview3.png"
+                      alt=""
+                      layout="responsive"
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
                     />
-                    </div>
+                  </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
                     <p className="font-bold">Justin Y.</p>
                   </div>
@@ -146,15 +147,15 @@ const Jy: NextPage = () => {
                 <PanelFive />
                 <Thumbnail>
                   <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
+                    <Image
+                      src="/Interview3.png"
+                      alt=""
+                      layout="responsive"
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
                     />
-                    </div>
+                  </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
                     <p className="font-bold">Justin Y.</p>
                   </div>
@@ -164,15 +165,15 @@ const Jy: NextPage = () => {
                 <PanelSix />
                 <Thumbnail>
                   <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
+                    <Image
+                      src="/Interview3.png"
+                      alt=""
+                      layout="responsive"
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
                     />
-                    </div>
+                  </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
                     <p className="font-bold">Justin Y.</p>
                   </div>
@@ -182,15 +183,15 @@ const Jy: NextPage = () => {
                 <PanelSeven />
                 <Thumbnail>
                   <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
+                    <Image
+                      src="/Interview3.png"
+                      alt=""
+                      layout="responsive"
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
                     />
-                    </div>
+                  </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
                     <p className="font-bold">Justin Y.</p>
                   </div>
@@ -200,15 +201,15 @@ const Jy: NextPage = () => {
                 <PanelEight />
                 <Thumbnail>
                   <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
+                    <Image
+                      src="/Interview3.png"
+                      alt=""
+                      layout="responsive"
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
                     />
-                    </div>
+                  </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
                     <p className="font-bold">Justin Y.</p>
                   </div>
@@ -218,15 +219,15 @@ const Jy: NextPage = () => {
                 <PanelNine />
                 <Thumbnail>
                   <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
+                    <Image
+                      src="/Interview3.png"
+                      alt=""
+                      layout="responsive"
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
                     />
-                    </div>
+                  </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
                     <p className="font-bold">Justin Y.</p>
                   </div>
@@ -236,15 +237,15 @@ const Jy: NextPage = () => {
                 <PanelTen />
                 <Thumbnail>
                   <div className="w-24 absolute bottom-8">
-                  <Image
-                    src="/Interview3.png"
-                    alt=""
-                    layout="responsive"
-                    width={1000}
-                    height={1000}
-                    objectFit="cover"
+                    <Image
+                      src="/Interview3.png"
+                      alt=""
+                      layout="responsive"
+                      width={1000}
+                      height={1000}
+                      objectFit="cover"
                     />
-                    </div>
+                  </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
                     <p className="font-bold">Justin Y.</p>
                   </div>
@@ -269,13 +270,13 @@ const Jy: NextPage = () => {
 const PanelOne = () => {
   return (
     <FadeInSection>
-      <div className="w-full relative h-screen flex flex-col justify-center items-center">
+      <div className="w-full relative bg-[#edf4ef] h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
             Justin Yu is the Chairman of the Chinese Chamber of Commerce of New
             York, former President of the Chinese Consolidated Benevolent
             Association, one of the oldest community organizations in New York,
-            and serve as board member in many other organizations.
+            and serve as board member in many other&nbsp;organizations.
           </p>
         </div>
       </div>
@@ -285,107 +286,112 @@ const PanelOne = () => {
 
 const PanelTwo = () => {
   return (
-    <div className="w-full h-screen space-y-8">
-      <div className="w-1/2 m-auto">
-        <Image
-          src="/JY1.png"
-          alt=""
-          layout="responsive"
-          width={1026}
-          height={641}
-        />
-      </div>
-      <div className="w-2/3 m-auto">
-        <p className="font-winnieyoe text-2xl text-center">
-          I moved from Taiwan to New York in 1972, I was a reporter for the
-          World Journal Daily for 25 years. I have seen New York City up and
-          down.
-        </p>
-      </div>
+    <div className="w-full relative bg-[#edf4ef] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <ImageContainer>
+          <Image
+            src="/JY1.png"
+            alt=""
+            layout="responsive"
+            width={2050}
+            height={900}
+            objectFit="cover"
+          />
+        </ImageContainer>
+        <Lower>
+          <p>
+            I moved from Taiwan to New York in 1972, I was a reporter for the
+            World Journal Daily for 25 years. I have seen New York City up and&nbsp;
+            down.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelThree = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/3">
-        <p className="font-winnieyoe text-2xl text-center">
-          When I move into Confucius Plaza in late 1975, I was one of the
-          youngest
-        </p>
-      </div>
-      <div className="w-1/3">
-        <FadeInSection>
+    <div className="w-full relative bg-[#edf4ef] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
+            When I move into Confucius Plaza in late 1975, I was one of the&nbsp;youngest.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JY2.png"
             alt=""
             layout="responsive"
-            width={1049}
-            height={772}
+            width={2050}
+            height={900}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          Today, I’m still the youngest after 46 years. The building and the
-          residents are aging together.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p>
+            Today, I’m still the youngest after 46 years. The building and the
+            residents are aging&nbsp;together.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelFour = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          I engaged in community activity since I retired. I was the Chairman of
-          the Chinese Chamber of Commerce of New York, served as the former
-          president of the Chinese Consolidated Benevolent Association...
-        </p>
-      </div>
-      <div className="w-1/2">
-        <FadeInSection>
+    <div className="w-full relative bg-[#edf4ef] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
+            I engaged in community activity since I retired. I was the Chairman of
+            the Chinese Chamber of Commerce of New York, served as the former
+            president of the Chinese Consolidated Benevolent&nbsp;Association...
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JY3.png"
             alt=""
             layout="responsive"
-            width={1162}
-            height={748}
+            width={2050}
+            height={1000}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
+        </ImageContainer>
+      </Container>
     </div>
   );
 };
 
 const PanelFive = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          The jail is going to hurt us. We hope they can scale down to a smaller
-          size and shorten constructor time.
-        </p>
-      </div>
-      <div className="w-1/3">
-        <FadeInSection>
+    <div className="w-full relative bg-[#edf4ef] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
+            The jail is going to hurt us. We hope they can scale down to a smaller
+            size and shorten constructor&nbsp;time.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JY4.png"
             alt=""
             layout="responsive"
-            width={954}
-            height={876}
+            width={2050}
+            height={1000}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          Because of the jail, Baxter street may disappear in a couple of years.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p>
+            Because of the jail, Baxter street may disappear in a couple of&nbsp;years.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
@@ -423,43 +429,45 @@ const PanelSix = () => {
 
 const PanelSeven = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/3">
-        <FadeInSection>
+    <div className="w-full relative bg-[#edf4ef] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <ImageContainer>
           <Image
             src="/JY6.png"
             alt=""
             layout="responsive"
-            width={948}
-            height={900}
+            width={2050}
+            height={1000}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
+        </ImageContainer>
+      </Container>
     </div>
   );
 };
 
 const PanelEight = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/3">
-        <FadeInSection>
+    <div className="w-full relative bg-[#edf4ef] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <ImageContainer>
           <Image
             src="/JY7.png"
             alt=""
             layout="responsive"
-            width={1017}
-            height={817}
+            width={2050}
+            height={1050}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          But I am optimistic because we have almost 100 organizations that own
-          buildings. This should be very stable for us to exist for the coming
-          years.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p>
+            But I am optimistic because we have almost 100 organizations that own
+            buildings. This should be very stable for us to exist for the coming
+            &nbsp;years.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
@@ -528,29 +536,30 @@ const PanelTen = () => {
 
 const PanelEleven = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-12">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          “In Chinese, we say 危機, 危機. From very negative impact we see the
-          bright hope from this.
-        </p>
-      </div>
-      <div className="w-2/5">
-        <FadeInSection>
+    <div className="w-full relative bg-[#edf4ef] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
+          In Chinese, we say 危機, 危機. From very negative impact we see the
+          bright hope from&nbsp;this.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JY10.png"
             alt=""
             layout="responsive"
-            width={1053}
-            height={643}
+            width={2050}
+            height={800}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          Yes. There’s a silver lining.
-        </p>
-      </div>
+        </ImageContainer>
+        <Lower>
+          <p>
+          Yes. There’s a silver&nbsp;lining.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };

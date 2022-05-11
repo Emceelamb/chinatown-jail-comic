@@ -331,8 +331,8 @@ const PanelThree = () => {
         </ImageContainer>
         <Lower>
           <p>
-            Today, I’m still the youngest after 46 years. The building and the
-            residents are aging&nbsp;together.
+            Today, I’m still the youngest after 46 years. <span className="underline underline-offset-0">The building and the
+            residents are aging&nbsp;together.</span>
           </p>
         </Lower>
       </Container>
@@ -388,7 +388,7 @@ const PanelFive = () => {
         </ImageContainer>
         <Lower>
           <p>
-            Because of the jail, Baxter street may disappear in a couple of&nbsp;years.
+            <span className="underline underline-offset-0">Because of the jail, Baxter street may disappear in a couple of&nbsp;years.</span>
           </p>
         </Lower>
       </Container>
@@ -419,7 +419,7 @@ const PanelSix = () => {
         </ImageContainer>
         <Lower>
           <p>
-          Small business community just cannot afford so many shelters. It’s an
+          <span className="underline underline-offset-0">Small business community just cannot afford so many shelters.</span> It’s an
           obstacle for our recovery&nbsp;process.
           </p>
         </Lower>
@@ -464,8 +464,7 @@ const PanelEight = () => {
         <Lower>
           <p>
             But I am optimistic because we have almost 100 organizations that own
-            buildings. This should be very stable for us to exist for the coming
-            &nbsp;years.
+            buildings. This should be very stable for us to exist for the coming&nbsp;years.
           </p>
         </Lower>
       </Container>
@@ -509,7 +508,7 @@ const PanelTen = () => {
       <Container>
         <Upper>
           <p>
-          During the pandemic, the younger generation also came back to serve.
+          During the pandemic, <span className="underline underline-offset-0">the younger generation also came back to serve.</span>
           They are doing all kinds of work, and we are encouraging them to do&nbsp;it.
           </p>
         </Upper>
@@ -539,8 +538,8 @@ const PanelEleven = () => {
       <Container>
         <Upper>
           <p>
-          In Chinese, we say 危機, 危機. From very negative impact we see the
-          bright hope from&nbsp;this.
+          In Chinese, we say 危機, 危機.  From very negative impact <span className="underline underline-offset-0">we see the
+          bright hope from&nbsp;this.</span>
           </p>
         </Upper>
         <ImageContainer>

@@ -378,11 +378,11 @@ const PanelFive = () => {
         </Upper>
         <ImageContainer>
           <Image
-            src="/JY4.png"
+            src="/JY4B.png"
             alt=""
             layout="responsive"
             width={2050}
-            height={1000}
+            height={1100}
             objectFit="cover"
           />
         </ImageContainer>
@@ -398,31 +398,32 @@ const PanelFive = () => {
 
 const PanelSix = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+    <div className="w-full relative bg-[#edf4ef] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
           There’s also the shelters. 20 hotels were constructed before the
           pandemic, after the pandemic they are empty and now the city is
-          utilizing the hotel to shelter.
-        </p>
-      </div>
-      <div className="w-1/3">
-        <FadeInSection>
+          utilizing the hotel to&nbsp;shelter.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JY5.png"
             alt=""
             layout="responsive"
-            width={1091}
-            height={531}
+            width={2050}
+            height={800}
+            objectFit="cover"
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+        </ImageContainer>
+        <Lower>
+          <p>
           Small business community just cannot afford so many shelters. It’s an
-          obstacle for our recovery process
-        </p>
-      </div>
+          obstacle for our recovery&nbsp;process.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
@@ -474,62 +475,60 @@ const PanelEight = () => {
 
 const PanelNine = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-8">
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
-          During the pandemic, so many original business people just pack and
+    <div className="w-full relative bg-[#edf4ef] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
+          During the pandemic, so many original business people just pack and&nbsp;
           left.
-        </p>
-      </div>
-      <div className="w-1/2">
-        <FadeInSection>
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JY8.png"
             alt=""
             layout="responsive"
-            width={1484}
-            height={686}
+            width={2050}
+            height={900}
           />
-        </FadeInSection>
-      </div>
-      <div className="w-1/2">
-        <p className="font-winnieyoe text-2xl text-center">
+        </ImageContainer>
+        <Lower>
+          <p>
           Now the core area of Chinatown all open up, small businesses are
-          coming back, which I’m very happy about.
-        </p>
-      </div>
+          coming back, which I’m very happy&nbsp;about.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };
 
 const PanelTen = () => {
   return (
-    <div className="w-full h-screen relative flex flex-col justify-center items-center space-y-12">
-      <div className="w-2/3">
-        <p className="font-winnieyoe text-2xl text-center">
+    <div className="w-full relative bg-[#edf4ef] h-screen flex items-center flex-col justify-center space-y-10">
+      <Container>
+        <Upper>
+          <p>
           During the pandemic, the younger generation also came back to serve.
-          They are doing all kinds of work, and we are encouraging them to do
-          it.
-        </p>
-      </div>
-      <div className="w-2/3">
-        <FadeInSection>
+          They are doing all kinds of work, and we are encouraging them to do&nbsp;it.
+          </p>
+        </Upper>
+        <ImageContainer>
           <Image
             src="/JY9.png"
             alt=""
             layout="responsive"
-            width={1678}
-            height={489}
+            width={2050}
+            height={900}
           />
-        </FadeInSection>
-      </div>
-      <div className="w-2/3">
-        <p className="font-winnieyoe text-2xl text-center">
+        </ImageContainer>
+        <Lower>
+          <p>
           Before the Pandemic, we’re always worried about where all the
-          organizations are going to be but now they are coming back we see the
-          hope.
-        </p>
-      </div>
+          organizations are going to be but now they are coming back we see the&nbsp;hope.
+          </p>
+        </Lower>
+      </Container>
     </div>
   );
 };

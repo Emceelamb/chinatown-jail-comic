@@ -94,8 +94,6 @@ const App: NextPage = () => {
                 <PanelSix />
               </div>
 
-
-
               <div className="section">
                 <Sources />
               </div>

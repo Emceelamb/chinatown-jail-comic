@@ -11,6 +11,7 @@ import { Interviews } from "../components/Interviews";
 import { Thumbnail } from "../components/Thumbnail"
 import { Container, Upper, Lower, ImageContainer } from "../components/Container";
 import ReactFullpage from "@fullpage/react-fullpage";
+import { Endnotes } from "../components/Endnotes";
 
 const Ac: NextPage = () => {
   const Menu = () => (
@@ -285,6 +286,9 @@ const Ac: NextPage = () => {
               </div>
               <div className="section">
                 <Interviews />
+              </div>
+              <div className="section">
+                <Endnotes />
               </div>
             </ReactFullpage.Wrapper>
           )

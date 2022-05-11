@@ -14,6 +14,7 @@ import { Interviews } from "../components/Interviews";
 import { Container, Upper, Lower, ImageContainer } from "../components/Container";
 
 import { Thumbnail } from "../components/Thumbnail";
+import { Endnotes } from "../components/Endnotes";
 
 
 const Jl: NextPage = () => {
@@ -291,6 +292,10 @@ const Jl: NextPage = () => {
               
               <div className="section">
                 <Interviews />
+              </div>
+
+              <div className="section">
+                <Endnotes />
               </div>
             </ReactFullpage.Wrapper>
           )

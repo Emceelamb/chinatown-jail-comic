@@ -46,7 +46,7 @@ const App: NextPage = () => {
               <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Justin Y.</a>
             </Link>
             <Link href="/ac">
-              <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Anonymous</a>
+              <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Regina</a>
             </Link>
           </li>
         </ul>
@@ -445,7 +445,7 @@ const Credits = () => {
               </div>
 
               <div className="mb-8">
-                <p className="text-left font-bold text-lg leading-none mb-2">In Anonymous’s section</p>
+                <p className="text-left font-bold text-lg leading-none mb-2">In Regina’s section</p>
                 <p className="text-left text-lg leading-none mb-4">Dugyala, Rishika (2021, October 3). What's mobilizing AAPI voters like never before. POLITICO. <a className="underline decoration-dotted decoration-1" target="_blank" rel="noreferrer" href="https://www.politico.com/newsletters/the-recast/2021/10/03/poll-asian-american-pacific-islander-voters-politics-fear-494533">https://www.politico.com/newsletters/the-recast/2021/10/03/poll-asian-american-pacific-islander-voters-politics-fear-494533</a></p>
               </div>
 

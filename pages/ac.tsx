@@ -46,7 +46,7 @@ const Ac: NextPage = () => {
             <a className="hover:underline decoration-dotted decoration-1 underline-offset-2">Justin Y.</a>
           </Link>
           <Link href="/ac">
-            <a className="underline decoration-dotted decoration-1 underline-offset-2">Anonymous</a>
+            <a className="underline decoration-dotted decoration-1 underline-offset-2">Regina</a>
           </Link>
         </li>
       </ul>
@@ -79,7 +79,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -97,7 +97,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -115,7 +115,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -133,7 +133,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -151,7 +151,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -169,7 +169,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -187,7 +187,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -205,7 +205,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -223,7 +223,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -241,7 +241,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -259,7 +259,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -277,7 +277,7 @@ const Ac: NextPage = () => {
                     />
                     </div>
                   <div className="text-center space-y-2 font-winnieyoe text-lg mb-6 absolute">
-                    <p className="font-bold">Anonymous</p>
+                    <p className="font-bold">Regina</p>
                   </div>
                 </Thumbnail>
               </div>
@@ -305,7 +305,7 @@ const PanelOne = () => {
       <div className="w-full bg-[#fef8f3] relative h-screen flex flex-col justify-center items-center">
         <div className="w-2/3">
           <p className="font-winnieyoe text-3xl text-center">
-            Anonymous contributor C is an engineer who has recently started
+            Regina is an engineer who has recently started
             their advocacy work, connecting with other community members and
             sharing community events and updates through their platform.
           </p>
@@ -351,8 +351,7 @@ const PanelThree = () => {
       <Container>
         <Upper>
           <p>
-            Working to fight for Chinatown consumes every premise of my life. I’m
-            not exercising, I barely&nbsp;sleep.
+            Fighting for Chinatown consumes every moment of free time in my life. It's hard to find time to exercise and I barely&nbsp;sleep.
           </p>
         </Upper>
         <ImageContainer>
@@ -369,7 +368,7 @@ const PanelThree = () => {
         </ImageContainer>
         <Lower>
           <p>
-            My husband and I are trying to have a zkid later this year but I keep thinking, <span className="underline underline-offset-0">how am I supposed to fight for Chinatown and try to have a&nbsp;kid?</span>
+          My husband are considering when to start a family but I keep thinking, <span className="underline underline-offset-0">how am I supposed to fight for Chinatown and try to have a&nbsp;kid?</span>
           </p>
         </Lower>
       </Container>
@@ -444,9 +443,7 @@ const PanelSix = () => {
         </ImageContainer>
         <Lower>
           <p>
-            Rikers is supposed to close as a prison by August 31, 2027. The city
-            is pushing everything through carelessly because delays are costly.
-            I’m now trying to think through how to change the&nbsp;law.
+          Rikers is supposed to close as a jail by August 31, 2027. The city is pushing everything through without enough consideration of the local community because doing so would take up time needed to focus on demolishing, designing, and building. I'm now trying to think through how to change the&nbsp;law.
           </p>
         </Lower>
       </Container>
@@ -570,8 +567,7 @@ const PanelTen = () => {
         </div>
         <Lower>
           <p className="font-winnieyoe text-2xl text-center">
-            Black Lives Matter did well. There’s a shared experience of Black
-            Lives Matter, right? Which is what unites&nbsp;you.
+          What are the things we can learn from the Civil Rights Movement and Black Lives Matter? Let's find what unites&nbsp;us.
           </p>
         </Lower>
       </Container>
@@ -600,7 +596,7 @@ const PanelEleven = () => {
         </ImageContainer>
         <Lower>
           <p className="font-winnieyoe text-2xl text-center">
-            I have an idea in May to book out Madison Square Garden or Barclays Center and throw a massive rally bring in Asian&nbsp;performers.
+          One day, I would like to book out Madison Square Garden or Barclays Center and throw a massive unity rally to come together over the issues we face but also to celebrate Asian excellence. Can you hear us&nbsp;now?
           </p>
           <p className="font-winnieyoe text-2xl text-center">
             <span className="underline underline-offset-0">“Can you hear us&nbsp;now?”</span>
@@ -653,7 +649,7 @@ const PanelThirteen = () => {
         <Lower>
           <p className="font-winnieyoe text-2xl text-center">
             You’re pro-closing Rikers, are you also pro-protecting the
-            marginalized people of&nbsp;Chinatown?
+            people of&nbsp;Chinatown?
           </p>
 
         </Lower>

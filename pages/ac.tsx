@@ -307,7 +307,7 @@ const PanelOne = () => {
           <p className="font-winnieyoe text-3xl text-center">
             Regina is an engineer who has recently started
             their advocacy work, connecting with other community members and
-            sharing community events and updates through their platform.
+            sharing community events and updates through their&nbsp;platform.
           </p>
         </div>
       </div>
@@ -419,8 +419,7 @@ const PanelFive = () => {
           <p>
             There’s water in the soil of Canal street that would need to be pumped
             out, that’s actually really risky. Pile driving is about 120 decibels,
-            how are they going to mitigate that? <span className="underline underline-offset-0">How can the businesses and the
-              citizens in the building survive?</span> I don’t get&nbsp;it.
+            how are they going to mitigate that? <span className="underline underline-offset-0">How can the businesses and the citizens in the building survive?</span> I don’t get&nbsp;it.
           </p>
         </Lower>
       </Container>
